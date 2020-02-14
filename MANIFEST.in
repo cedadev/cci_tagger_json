@@ -1,1 +1,1 @@
-recursive-include cci_tiger_json/json/*
+recursive-include cci_tiger_json/json *
