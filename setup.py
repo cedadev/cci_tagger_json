@@ -3,6 +3,8 @@ import setuptools
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
+
+
 setuptools.setup(
     name="cci_tagger_json",
     version="0.0.1",
@@ -14,5 +16,8 @@ setuptools.setup(
     url="https://github.com/cedadev/cci_tagger_json.git",
     packages=setuptools.find_packages(),
     python_requires='>=3.6',
-    include_package_data=True
+    include_package_data=True,
+    install_requires=[
+        'directory_tree'
+    ]
 )

@@ -12,7 +12,7 @@ pip install git+https://github.com/cedadev/cci_tagger_json.git
 
 ## Writing JSON files
 
-An example JSON file can be found at [example.json](cci_tagger_json/json/example.json)
+An example JSON file can be found at [example.json](cci_tagger_json/example_json/example.json)
 
 JSON Files have these attributes which you can find more detail about below:
 

@@ -31,17 +31,21 @@ class DatasetJSONMappings:
     _dataset_realisations = {}
 
 
-    def __init__(self, json_dir):
+    def __init__(self, json_files=None):
+        """
+        :param json_files: A collection of json files to read in. Defaults to None.
+        This means that the local json files will be loaded.
+        """
 
         # Init tree
+        if json_files is None:
+            json_files = list()
         self._dataset_tree = DatasetNode()
 
-        # Get list of all JSON files
-        if json_dir:
-            # TODO: Fix issue where this can't handle non relative paths
-            json_files = Path().glob(os.path.join(json_dir, '**/*.json'))
-        else:
-            json_files = []
+        # Load local JSON files
+        if not json_files:
+            path_root = os.path.dirname(os.path.abspath(__file__))
+            json_files = Path('/').glob(os.path.join(path_root[1:], 'json/**/*.json'))
 
         # Read all the json files and build a tree of datasets
         for file in json_files:
@@ -49,8 +53,8 @@ class DatasetJSONMappings:
             with open(file) as json_input:
                 try:
                     data = json.load(json_input)
-                except json.decoder.JSONDecodeError:
-                    print(f'Error loading {file}')
+                except json.decoder.JSONDecodeError as e:
+                    print(f'Error loading {file}: {e}')
                     continue
 
                 for dataset in data.get('datasets',[]):
