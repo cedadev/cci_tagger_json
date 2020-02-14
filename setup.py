@@ -14,4 +14,5 @@ setuptools.setup(
     url="https://github.com/cedadev/cci_tagger_json.git",
     packages=setuptools.find_packages(),
     python_requires='>=3.6',
+    include_package_data=True
 )
