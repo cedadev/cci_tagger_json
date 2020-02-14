@@ -11,7 +11,18 @@ This can be installed using pip
 pip install git+https://github.com/cedadev/cci_tagger_json.git
 
 ## Writing JSON files
+
 An example JSON file can be found at [example.json](cci_tagger_json/json/example.json)
+
+JSON Files have these attributes which you can find more detail about below:
+
+- [Datasets](#datasets)
+- [Filters](#filters)
+- [Mappings](#mappings)
+- [Defaults](#defaults)
+- [Realisations](#realisations)
+- [Overrides](#overrides)
+
 
 Keys to use as facets
 
