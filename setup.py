@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="cci_tiger_json",
+    name="cci_tagger_json",
     version="0.0.1",
     author="Richard Smith",
     author_email="richard.d.smith@stfc.ac.uk",
