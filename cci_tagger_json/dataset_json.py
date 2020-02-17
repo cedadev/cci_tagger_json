@@ -176,6 +176,7 @@ class DatasetJSONMappings:
          - Checks to see if there is a filter to hone the realisation
 
         :param dataset: (string)
+        :param filepath: (string)
         :return: realisation (string) | 'r1'
         """
 
