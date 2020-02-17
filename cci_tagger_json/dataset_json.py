@@ -11,6 +11,8 @@ from directory_tree import DatasetNode
 import os
 import json
 from pathlib import Path
+from cci_tagger_json.utils import nested_get
+import re
 
 
 class DatasetJSONMappings:
@@ -22,10 +24,6 @@ class DatasetJSONMappings:
     # Place to cache the loaded mappings from the JSON files once they are required
     # in the processing
     _user_json_cache = {}
-
-    # Place to cache the loaded mappings and URI lookups from the JSON files once
-    # they are required in the processing
-    _user_uri_cache = {}
 
     # Place to store mappings between datasets and realisation
     _dataset_realisations = {}
@@ -166,20 +164,46 @@ class DatasetJSONMappings:
 
         return data.get('overrides')
 
-    def get_dataset_realisation(self, dataset):
+    def get_dataset_realisation(self, dataset, filepath):
         """
         Get the realisation for the specified dataset.
         Returns 'r1' if no user defined realisations.
+        The filepath is used to match against a filter, if there is one.
+
+        Order:
+         - Default realisation 'r1'
+         - Checks to see if there a dataset specific realisation
+         - Checks to see if there is a filter to hone the realisation
+
         :param dataset: (string)
         :return: realisation (string) | 'r1'
         """
 
+        # Set default
         realisation = 'r1'
 
-        ds_real = self._dataset_realisations.get(dataset)
+        # Load the relevant json file
+        data = self.load_mapping(dataset)
 
-        if ds_real:
-            realisation = ds_real
+        # Check for dataset level realisation mappings
+        keys = ('realisations',dataset)
+        if nested_get(keys, data):
+            realisation = nested_get(keys, data)
+
+        # Check if there are filters
+        keys = ('filters',dataset)
+        if nested_get(keys, data):
+            filename = os.path.basename(filepath)
+
+            # Check file against all filters
+            for filter in nested_get(keys, data):
+                m = re.match(filter['pattern'],filename)
+
+                if m:
+                    ds_real = filter.get('realisation')
+                    if ds_real:
+                        realisation = ds_real
+                    break
 
         return realisation
 

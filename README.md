@@ -71,16 +71,33 @@ Keys to use as facets
 <table>
 <tr>
     <th>Description</th>
-    <td></td>
+    <td>Allows you to match different files in the same dataset to different realisations.
+    The patterns should be a regular expression to match agains the filename
+    </td>
 </tr>
 <tr>
     <th>Structure</th>
-    <td>Array of paths</td>
+    <td>The filters element is a JSON object where the keys are dataset paths.
+    The dataset path should then have an array of JSON objects.
+    Each object should then have the pattern to match and the realisation to apply.
+    </td>
 </tr>
 <tr>
     <th>Example</th>
     <td>
     <pre>
+	"filters": {
+		"/path/1": [
+			{
+				"pattern": "*.nc",
+				"realisation": "r1"
+			},
+			{
+				"pattern": "*.txt",
+				"realisation": "text"
+			}
+		]
+	}
     </pre>
     </td>
 </tr>

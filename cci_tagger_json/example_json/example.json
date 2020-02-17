@@ -4,8 +4,16 @@
 		"/path/2"
 	],
 	"filters": {
-		"/path/1": "*.nc",
-		"/path/2": "*.txt"
+		"/path/1": [
+			{
+				"pattern": "*.nc",
+				"realisation": "r1"
+			},
+			{
+				"pattern": "*.txt",
+				"realisation": "text"
+			}
+		]
 	},
 	"mappings": {
 		"ecv": {
