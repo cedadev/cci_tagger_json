@@ -89,11 +89,11 @@ Keys to use as facets
 	"filters": {
 		"/path/1": [
 			{
-				"pattern": "*.nc",
+				"pattern": ".*.nc",
 				"realisation": "r1"
 			},
 			{
-				"pattern": "*.txt",
+				"pattern": ".*.txt",
 				"realisation": "text"
 			}
 		]
