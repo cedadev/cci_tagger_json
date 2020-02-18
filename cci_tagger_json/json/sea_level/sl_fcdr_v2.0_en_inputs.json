@@ -1,0 +1,12 @@
+{
+    "datasets": [
+        "/neodc/esacci/sea_level/data/FCDR/v2.0/EN/"
+    ],
+    "mappings": {
+    },
+    "defaults": {
+        "ecv":"sea level",
+	"sensor":"RA-2",
+	"platform":"Envisat"
+    }
+}

@@ -1,0 +1,1 @@
+{"datasets": ["/neodc/esacci/ice_sheets_greenland/data/greenland_ice_velocity/greenland_iv_50m_s2_hagen/v1.1/"], "mappings": {}, "defaults": {"ecv": "ice sheets", "data_type": "ice sheet velocity"}}

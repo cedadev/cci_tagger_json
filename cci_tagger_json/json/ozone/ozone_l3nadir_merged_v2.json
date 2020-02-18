@@ -1,0 +1,14 @@
+{
+	"datasets": [
+		"/neodc/esacci/ozone/data/nadir_profiles/l3/merged/v0002/"
+	],
+	"mappings": {
+   "merged":{
+     "merged: ERS-2, ENVISAT, EOS-AURA, METOP-A":"ERS-2, ENVISAT, AURA, METOP-A",
+     "merged: GOME, SCIAMACHY, OMI and GOME-2.":"GOME, SCIAMACHY, OMI, GOME-2"
+   }
+	},
+  "defaults": {
+       "ecv":"ozone"
+	}
+}

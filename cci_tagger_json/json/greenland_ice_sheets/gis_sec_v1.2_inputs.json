@@ -1,0 +1,13 @@
+{
+	"datasets": [
+		"/neodc/esacci/ice_sheets_greenland/data/greenland_surface_elevation_change/v1.2"
+	],
+	"mappings": {
+		},
+  "defaults": {
+     "ecv":"ice sheets",
+     "data_type":"ice sheet surface elevation change",
+	   "institution":"DTU Space",
+     "product_version":"v1.2"
+	}
+}

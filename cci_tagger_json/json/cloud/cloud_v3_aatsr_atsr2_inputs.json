@@ -1,0 +1,37 @@
+{
+	"datasets": [
+		"/neodc/esacci/cloud/data/version3/L3C/ATSR2-AATSR/"
+		],
+	"mappings": {
+		"ecv": {
+		},
+		"data_type":{
+		},
+		"institution":{
+		},
+		"level": {
+		},
+		"platform": {
+		"ERS2":"ERS-2"
+		},
+		"sensor": {
+		"ATSR2":"ATSR-2"
+		},
+		"version": {
+		},
+		"product_string":{
+		"AATSR_ENVISAT":"ATSR2-AATSR",
+		"ATSR2_ERS2":"ATSR2-AATSR"
+				},
+		"merged":{
+    "AATSR":"AATSR,ATSR-2",
+    "ATSR2":"AATSR,ATSR-2",
+    "ENVISAT":"ENVISAT,ERS-2",
+    "ERS2":"ENVISAT,ERS-2"      
+		}	       
+
+	},
+	"defaults": {
+	        "ecv":"cloud"
+	}
+}

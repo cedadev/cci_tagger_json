@@ -1,0 +1,27 @@
+{
+	"datasets": [
+		"/neodc/esacci/biomass/data/agb/maps/2017/v1.0/"
+	],
+	"mappings": {
+		"ecv": {
+		},
+		"data_type":{
+		},
+		"level": {
+		},
+		"platform": {
+		},
+		"sensor": {
+		},
+		"version": {
+		},
+		"product_string":{
+		},
+		"merged":{
+		}	       
+
+	},
+	"defaults": {
+	        "ecv":"above-ground biomass" 
+	}
+}

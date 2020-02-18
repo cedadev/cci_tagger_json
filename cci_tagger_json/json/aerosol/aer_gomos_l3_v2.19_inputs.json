@@ -1,0 +1,14 @@
+{
+   "datasets": [
+      "/neodc/esacci/aerosol/data/GOMOS_AERGOM/L3/v2.19/"
+    ],
+    "mappings":{
+    },
+    "defaults":{
+      "ecv":"aerosol",
+      "time_coverage_resolution":"5 days",
+      "processing_level":"L3C",
+      "data_type":"AEX",
+      "product_string":"aergom"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "datasets": [
+        "/neodc/esacci/sea_level/data/FCDR/v2.0/G2/"
+    ],
+    "mappings": {
+    },
+    "defaults": {
+        "ecv":"sea level",
+	"sensor":"GFO-RA",
+	"platform":"GFO"
+    }
+}

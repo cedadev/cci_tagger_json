@@ -1,0 +1,14 @@
+{
+	"datasets": [
+		"/neodc/esacci/ice_sheets_greenland/data/greenland_calving_front_locations/v3.0/"
+	],
+	"mappings": {
+		},
+     "defaults": {
+       "ecv":"ice sheets",
+       "data_type":"glacier calving_front_location",
+       "product_version":"v3.0",
+	  "institution":"ENVEO",
+	  "platform":"GRACE"
+	}
+}

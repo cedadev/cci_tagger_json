@@ -1,0 +1,27 @@
+{
+	"datasets": [
+   "/neodc/esacci/ghg/data/crdp_4/GOSAT/CH4_GOS_SRFP/v2.3.8",
+   "/neodc/esacci/ghg/data/crdp_4/GOSAT/CO2_GOS_SRFP/v2.3.8"
+	],
+	"mappings": {
+		"ecv": {
+		},
+		"institution": {
+     "SRON Netherlands Institute for Space Research":"Netherlands Institute for Space Research"
+		},
+		"level": {
+		},
+		"platform": {
+		},
+		"sensor": {
+		},
+		"version": {
+		},
+		"product_string":{
+     "GOSAT":"SRFP"
+		}	
+	},
+	"defaults": {
+    "ecv":"greenhouse gases"
+	}
+}

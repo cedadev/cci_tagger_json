@@ -1,0 +1,18 @@
+{
+    "datasets": [
+        "/neodc/esacci/land_cover/data/water_bodies/v4.0/"
+    ],
+    "mappings": {
+    },
+    "defaults": {
+    "ecv":"land cover",
+    "data_type":"condition water (water bodies)",
+    "product_string":"map",
+    "processing_level":"level 4",
+    "time_coverage_resolution":"13 years",
+    "institution":"Universite Catholique de Louvain",
+    "sensor":"ASAR",
+    "platform":"Envisat",
+    "product_version":"4-0"
+    }
+}

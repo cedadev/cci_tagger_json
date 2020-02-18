@@ -1,0 +1,10 @@
+{
+   "datasets": [
+      "/neodc/esacci/aerosol/data/MERIS_ALAMO/L2/v2.2/"
+    ],
+    "mappings":{
+    },
+    "defaults":{
+      "ecv":"aerosol"
+    }
+}

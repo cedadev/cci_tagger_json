@@ -1,0 +1,11 @@
+{
+   "datasets": [
+      "/neodc/esacci/aerosol/data/MERIS_ALAMO/L3/v2.2/DAILY/"
+    ],
+    "mappings":{
+    },
+    "defaults":{
+      "ecv":"aerosol",
+      "time_coverage_resolution":"day"
+    }
+}

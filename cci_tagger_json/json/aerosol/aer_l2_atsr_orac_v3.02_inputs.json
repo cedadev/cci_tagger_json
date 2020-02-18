@@ -1,0 +1,15 @@
+{
+   "datasets": [
+      "/neodc/esacci/aerosol/data/AATSR_ORAC/L2/v3.02/",
+      "/neodc/esacci/aerosol/data/ATSR2_ORAC/L2/v3.02/"
+    ],
+    "mappings":{
+      "product_string":{
+	       "ATSR2":"ORAC",
+         "AATSR":"ORAC"
+      }
+    },
+    "defaults":{
+      "ecv":"aerosol"
+    }
+}

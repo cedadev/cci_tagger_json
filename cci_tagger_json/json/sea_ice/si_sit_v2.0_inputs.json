@@ -1,0 +1,20 @@
+{
+    "datasets": [
+        "/neodc/esacci/sea_ice/data/sea_ice_thickness/L2P/cryosat2/v2.0/NH/",
+        "/neodc/esacci/sea_ice/data/sea_ice_thickness/L2P/cryosat2/v2.0/SH/",
+	"/neodc/esacci/sea_ice/data/sea_ice_thickness/L2P/envisat/v2.0/NH/",
+	"/neodc/esacci/sea_ice/data/sea_ice_thickness/L2P/envisat/v2.0/SH/",
+	"/neodc/esacci/sea_ice/data/sea_ice_thickness/L3C/cryosat2/v2.0/NH/",
+        "/neodc/esacci/sea_ice/data/sea_ice_thickness/L3C/cryosat2/v2.0/SH/",
+	"/neodc/esacci/sea_ice/data/sea_ice_thickness/L3C/envisat/v2.0/NH/",
+	"/neodc/esacci/sea_ice/data/sea_ice_thickness/L3C/envisat/v2.0/SH/"
+    ],
+    "mappings": {
+      "institution":{
+	"Alfred-Wegener-Institut Helmholtz Zentrum für Polar und Meeresforschung":"Alfred-Wegener-Institut Helmholtz-Zentrum für Polar- und Meeresforschung"
+      }      	
+    },
+    "defaults": {
+        "ecv":"sea ice"
+    }
+}

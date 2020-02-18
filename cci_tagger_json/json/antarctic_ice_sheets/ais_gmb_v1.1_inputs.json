@@ -1,0 +1,29 @@
+{
+	"datasets": [
+		"/neodc/esacci/ice_sheets_antarctica/data/gravimetric_mass_balance/basin/v1.1/",
+    "/neodc/esacci/ice_sheets_antarctica/data/gravimetric_mass_balance/gridded/v1.1/"
+	],
+	"mappings": {
+		"ecv": {
+		},
+		"institution": {
+		},
+		"level": {
+		},
+		"platform": {
+		},
+		"sensor": {
+		},
+		"version": {
+		},
+		"product_string":{
+		}	
+	},
+	"defaults": {
+    "ecv":"ice sheets",
+    "data_type":"gravimetric mass balance",
+    "product_version":"v1.1",
+    "platform":"GRACE",
+    "institution":"TUDr"
+	}
+}

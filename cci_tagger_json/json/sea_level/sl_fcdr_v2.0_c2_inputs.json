@@ -1,0 +1,12 @@
+{
+    "datasets": [
+        "/neodc/esacci/sea_level/data/FCDR/v2.0/C2/"
+    ],
+    "mappings": {
+    },
+    "defaults": {
+        "ecv":"sea level",
+	"sensor":"SIRAL",
+	"platform":"Cryosat-2"
+    }
+}

@@ -1,0 +1,13 @@
+{
+	"datasets": [
+		"/neodc/esacci/ice_sheets_greenland/data/greenland_grounding_line_locations/v1.3/"
+	],
+	"mappings": {
+		},
+     "defaults": {
+       "ecv":"ice sheets",
+       "data_type":"glacier grounding line location",
+       "institution":"ENVEO",
+       "product_version":"v1.3"
+	}
+}

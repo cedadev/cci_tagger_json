@@ -1,0 +1,30 @@
+{
+    "datasets": [
+        "/neodc/esacci/sst/data/CDR_v2/AVHRR/L3U/v2.1/AVHRR07_G/",
+        "/neodc/esacci/sst/data/CDR_v2/AVHRR/L3U/v2.1/AVHRR09_G/",
+        "/neodc/esacci/sst/data/CDR_v2/AVHRR/L3U/v2.1/AVHRR11_G/",
+        "/neodc/esacci/sst/data/CDR_v2/AVHRR/L3U/v2.1/AVHRR12_G/",
+        "/neodc/esacci/sst/data/CDR_v2/AVHRR/L3U/v2.1/AVHRR14_G/"
+    ],
+    "mappings": {
+      "ecv":{
+        "GHRSST":"SST"
+      },
+      "sensor":{
+        "AVHRR_GAC":"AVHRR-2"
+      },
+      "platform":{
+        "NOAA-07":"NOAA-7",
+        "NOAA-09":"NOAA-9",
+        "NOAA-11":"NOAA-11",
+        "NOAA-12":"NOAA-12",
+        "NOAA-14":"NOAA-14"
+      },
+      "time_coverage_resolution":{
+        "P0DT1H40M00S":"satellite orbit frequency"
+      }
+    },
+    "defaults": {
+        "ecv":"sea surface temperature"
+    }
+}

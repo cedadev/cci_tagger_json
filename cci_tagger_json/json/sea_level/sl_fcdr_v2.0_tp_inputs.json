@@ -1,0 +1,12 @@
+{
+    "datasets": [
+        "/neodc/esacci/sea_level/data/FCDR/v2.0/TP/"
+    ],
+    "mappings": {
+    },
+    "defaults": {
+        "ecv":"sea level",
+	"sensor":"SSALT",
+	"platform":"Topex/Poseidon"
+    }
+}

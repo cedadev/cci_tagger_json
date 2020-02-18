@@ -1,0 +1,41 @@
+{
+	"datasets": [
+		"/neodc/esacci/soil_moisture/data/daily_files/ACTIVE/v04.4/",
+		"/neodc/esacci/soil_moisture/data/daily_files/PASSIVE/v04.4/",
+		"/neodc/esacci/soil_moisture/data/daily_files/COMBINED/v04.4/"
+	],
+	"mappings": {
+		"ecv": {
+		},
+		"institution": {
+		},
+		"level": {
+		},
+		"platform": {
+		  "MIRAS":"SMOS",
+		  "NIMBUS 7":"NIMBUS-7"
+		},
+		"sensor": {
+		  "SMOS":"MIRAS",
+		  "ASCAT-A":"ASCAT",
+		  "ASCAT-B":"ASCAT",
+		  "AMSR-E":"AMSRE"
+		},
+		"version": {
+		},
+		"product_string":{
+		},
+		"merged":{
+		  "Technische Universität Wien (AUT); Transmissivity B.V. / VanderSat B.V. Noordwijk (NL)": "Vienna University of Technology, VanderSat",
+		  "Nimbus 7, DMSP, TRMM, AQUA, Coriolis, GCOM-W1, MIRAS; ERS-1, ERS-2, METOP-A, METOP-B":"Nimbus-7, DMSP, TRMM, AQUA, Coriolis, GCOM-W1, SMOS, ERS-1, ERS-2, METOP-A,METOP-B",
+		  "SMMR, SSM/I, TMI, AMSR-E, WindSat, AMSR2, SMOS; AMI-WS, ASCAT-A, ASCAT-B":"SMMR, SSM/I, TMI, AMSRE, WindSat, AMSR2, SMOS, AMI-WS, ASCAT",
+      "AMI-WS, ASCAT-A, ASCAT-B":"AMI-WS, ASCAT",
+      "SMMR, SSM/I, TMI, AMSR-E, WindSat, AMSR2, SMOS":"SMMR, SSM/I, TMI, AMSRE, WindSat, AMSR2, MIRAS",
+      "Nimbus 7, DMSP, TRMM, AQUA, Coriolis, GCOM-W1, MIRAS":"Nimbus-7, DMSP, TRMM, AQUA, Coriolis, GCOM-W1, SMOS"
+		  }	       
+
+	},
+	"defaults": {
+	        "ecv":"soil moisture" 
+	}
+}

@@ -1,0 +1,37 @@
+{
+	"datasets": [
+		"/neodc/esacci/permafrost/data/active_layer_thickness/L4/area4/pp/v01.0/"
+	],
+	"mappings": {
+		"ecv": {
+		},
+		"data_type":{
+		"MODIS":"ALT"
+		},
+		"institution":{
+		"University of Oslo":"Department of GeoSciences, University of Oslo"
+		},
+		"time_coverage_resolution":{
+		"julian year":"year"
+		},
+		"level": {
+		},
+		"platform": {
+		},
+		"sensor": {
+		"SPOT":"VEGETATION",
+		"AVHRR/3":"AVHRR-3"
+		},
+		"version": {
+		},
+		"product_string":{
+		"ALT":"MODIS"
+		},
+		"merged":{
+		}	       
+
+	},
+	"defaults": {
+	        "ecv":"permafrost" 
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"datasets": [
+		"/neodc/esacci/cloud/data/phase-2/L3C/MODIS-AQUA/",
+		"/neodc/esacci/cloud/data/phase-2/L3C/MODIS-TERRA/"
+	],
+	"mappings": {
+		"ecv": {
+		},
+		"data_type":{
+		},
+		"institution":{
+		"Freie Universität Berlin (FUB)":"Freie Universitaet Berlin"
+		}
+	},
+	"defaults": {
+	        "ecv":"cloud"
+	}
+}

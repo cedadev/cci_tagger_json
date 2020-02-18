@@ -1,0 +1,13 @@
+{
+	"datasets": [
+		"/neodc/esacci/ozone/data/limb_profiles/l3/merged/merged_monthly_zonal_mean/v0002/"
+	],
+	"mappings": {
+		},
+  "defaults": {
+       "ecv":"ozone",
+       "data_type":"ozone limb profile",
+       "time_coverage_resolution":"month",
+       "product_version":"v0002"
+	}
+}

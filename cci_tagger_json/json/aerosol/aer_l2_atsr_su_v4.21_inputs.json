@@ -1,0 +1,21 @@
+{
+   "datasets": [
+      "/neodc/esacci/aerosol/data/AATSR_SU/L2/v4.21/",
+      "/neodc/esacci/aerosol/data/ATSR2_SU/L2/v4.21/"
+    ],
+    "mappings":{
+      "product_string":{
+	       "ATSR2_ERS2":"SU",
+         "AATSR_ENVISAT":"SU"
+      },
+      "sensor":{
+        "ATSR2":"ATSR-2"
+      },
+      "platform":{
+        "ERS2":"ERS-2"
+      }
+    },
+    "defaults":{
+      "ecv":"aerosol"
+    }
+}

@@ -1,0 +1,26 @@
+{
+	"datasets": [
+   "/neodc/esacci/ghg/data/crdp_4/GOSAT/CH4_GOS_SRPR/v2.3.8"
+	],
+	"mappings": {
+		"ecv": {
+		},
+		"institution": {
+     "SRON Netherlands Institute for Space Research":"Netherlands Institute for Space Research"
+		},
+		"level": {
+		},
+		"platform": {
+		},
+		"sensor": {
+		},
+		"version": {
+		},
+		"product_string":{
+     "GOSAT":"SRPR"
+		}	
+	},
+	"defaults": {
+    "ecv":"greenhouse gases"
+	}
+}

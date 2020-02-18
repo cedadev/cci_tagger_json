@@ -1,0 +1,13 @@
+{
+    "datasets": [
+        "/neodc/esacci/sst/data/gmpe/lt/"
+    ],
+    "mappings": {
+      "ecv":{
+        "GHRSST":"SST"
+      }
+    },
+    "defaults": {
+        "ecv":"sea surface temperature"
+    }
+}

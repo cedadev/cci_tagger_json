@@ -1,0 +1,13 @@
+{
+	"datasets": [
+		"/neodc/esacci/ozone/data/limb_profiles/l3/sciamachy_envisat/monthly_zonal_mean/v0001/"
+	],
+	"mappings": {
+		},
+  "defaults": {
+       "ecv":"ozone",
+       "data_type":"ozone limb profile",
+       "time_coverage_resolution":"month",
+       "product_version":"v0001"
+	}
+}

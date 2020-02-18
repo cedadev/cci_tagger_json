@@ -1,0 +1,32 @@
+{
+    "datasets": [
+        "/neodc/esacci/sst/data/CDR_v2/ATSR/L3C/v2.1/ATSR1/"
+    ],
+    "filters": {
+      "/neodc/esacci/sst/data/CDR_v2/ATSR/L3C/v2.1/ATSR1/": [
+        {
+          "pattern":".*day.*",
+          "realisation":"day"
+        },
+        {
+          "pattern":".*night.*",
+          "realisation":"night"
+        }
+      ]
+    },
+    "mappings": {
+      "ecv":{
+        "GHRSST":"SST"
+      },
+      "time_coverage_resolution":{
+        "P1DT0H00M00S":"day"
+      },
+      "sensor":{
+      },
+      "platform":{
+      }
+    },
+    "defaults": {
+        "ecv":"sea surface temperature"
+    }
+}

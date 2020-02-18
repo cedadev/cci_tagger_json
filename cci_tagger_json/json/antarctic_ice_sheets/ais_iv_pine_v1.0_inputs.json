@@ -1,0 +1,28 @@
+{
+	"datasets": [
+		"/neodc/esacci/ice_sheets_antarctica/data/ice_velocity/pine_island_glacier/v1.0/"
+	],
+	"mappings": {
+		"ecv": {
+		},
+		"institution": {
+		},
+		"processing_level": {
+		},
+		"platform": {
+		},
+		"sensor": {
+		},
+		"version": {
+		},
+		"product_string":{
+		}	
+	},
+	"defaults": {
+    "ecv":"ice sheets",
+    "data_type":"ice sheet velocity",
+    "product_version":"v1.0",
+    "platform":"sentinel-1",
+    "institution":"ENVEO"
+	}
+}

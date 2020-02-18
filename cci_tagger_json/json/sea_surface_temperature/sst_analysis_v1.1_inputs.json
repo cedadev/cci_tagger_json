@@ -1,0 +1,19 @@
+{
+    "datasets": [
+        "/neodc/esacci/sst/data/lt/Analysis/L4/v01.1/"
+    ],
+    "mappings": {
+      "ecv":{
+        "GHRSST":"SST"
+      },
+      "platform":{
+        "MetOpA":"Metop-A"
+        },
+      "merged":{
+        "ATSR, AATSR, AVHRR_GAC":"ATSR,ATSR-2, AATSR, AVHRR-2,AVHRR-3"
+      }
+    },
+    "defaults": {
+        "ecv":"sea surface temperature"
+    }
+}

@@ -1,0 +1,13 @@
+{
+   "datasets": [
+      "/neodc/esacci/aerosol/data/MERIS_ALAMO/L3/v2.2/MONTHLY/"
+    ],
+    "mappings":{
+    },
+    "defaults":{
+      "ecv":"aerosol"
+    },
+    "overrides":{
+      "time_coverage_resolution":"month"
+    }
+}

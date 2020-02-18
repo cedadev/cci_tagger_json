@@ -1,0 +1,21 @@
+{
+   "datasets": [
+      "/neodc/esacci/aerosol/data/AATSR_ORAC/L3/v3.02/MONTHLY/",
+      "/neodc/esacci/aerosol/data/ATSR2_ORAC/L3/v3.02/MONTHLY/"
+    ],
+    "mappings":{
+      "product_string":{
+      	"ATSR2":"ORAC",
+    	  "AATSR":"ORAC"
+       },
+      "product_version":{
+        "03.02.":"03.02"
+      }
+    },
+    "defaults":{
+      "ecv":"aerosol"
+    },
+    "overrides":{
+      "time_coverage_resolution":"month"
+    }
+}

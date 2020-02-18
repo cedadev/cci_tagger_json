@@ -1,0 +1,17 @@
+{
+	"datasets": [
+		"/neodc/esacci/ice_sheets_greenland/data/greenland_gravimetric_mass_balance/DTU_Space/v1.5/"
+	],
+	"mappings": {
+       "institution":{
+       "DTU Space - Div. of Geodynamics":"DTU Space"
+       }
+		},
+     "defaults": {
+       "ecv":"ice sheets",
+       "data_type":"gravimetric mass balance",
+	     "institution":"DTU Space",
+       "platform":"GRACE",
+       "product_version":"v1.5"
+	}
+}

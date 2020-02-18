@@ -1,0 +1,11 @@
+{
+   "datasets": [
+      "/neodc/esacci/aerosol/data/MS_UVAI/IMAGES/"
+    ],
+    "mappings":{
+    },
+    "defaults":{
+      "ecv":"aerosol",
+      "data_type":"AAI"
+    }
+}

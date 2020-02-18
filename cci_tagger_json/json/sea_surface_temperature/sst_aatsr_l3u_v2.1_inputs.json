@@ -1,0 +1,20 @@
+{
+    "datasets": [
+        "/neodc/esacci/sst/data/CDR_v2/ATSR/L3U/v2.1/AATSR/"
+    ],
+    "mappings": {
+      "ecv":{
+        "GHRSST":"SST"
+      },
+      "time_coverage_resolution":{
+       "P0DT1H40M00S":"satellite orbit frequency"
+       },
+      "sensor":{
+      },
+      "platform":{
+      }
+    },
+    "defaults": {
+        "ecv":"sea surface temperature"
+    }
+}
