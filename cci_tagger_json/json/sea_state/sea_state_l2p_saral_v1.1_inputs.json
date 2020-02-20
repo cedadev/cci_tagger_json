@@ -1,25 +1,11 @@
 {
-	"datasets": [
-		"/neodc/esacci/sea_state/data/v1.1_release/l2p/saral/"
-	],
-	"mappings": {
-		"ecv": {
-		},
-		"data_type":{
-		},
-		"level": {
-		},
-		"platform": {
-		},
-		"sensor": {
-		},
-		"version": {
-		},
-		"product_string":{
-		}     
-	},
-	"defaults": {
-	        "ecv":"sea state", 
-		"time_coverage_resolution":"satellite orbit frequency"
-	}
+  "datasets": [
+    "/neodc/esacci/sea_state/data/v1.1_release/l2p/saral/"
+  ],
+  "mappings": {
+  },
+  "defaults": {
+    "ecv": "sea state",
+    "time_coverage_resolution": "satellite orbit frequency"
+  }
 }

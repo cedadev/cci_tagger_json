@@ -1,27 +1,25 @@
 {
-    "datasets": [
-        "/neodc/esacci/sst/data/CDR_v2/Climatology/L4/v2.1/"
-    ],
-    "mappings": {
-      "ecv":{
-        "GHRSST":"SST"
-      },
-      "time_coverage_resolution":{
-       "P0DT1H40M00S":"satellite orbit frequency"
-       },
-      "sensor":{
-      },
-      "platform":{
-      "MetOPA":"Metop-A"
-      },
-      "merged":{
-      "ATSR, AATSR, AVHRR_GAC":"ATSR,ATSR-2,AATSR,AVHRR-2,AVHRR-3"
-      }
+  "datasets": [
+    "/neodc/esacci/sst/data/CDR_v2/Climatology/L4/v2.1/"
+  ],
+  "mappings": {
+    "ecv": {
+      "GHRSST": "SST"
     },
-    "defaults": {
-        "ecv":"sea surface temperature"
+    "time_coverage_resolution": {
+      "P0DT1H40M00S": "satellite orbit frequency"
     },
-    "overrides":{
-        "time_coverage_resolution":"climatology"
+    "platform": {
+      "MetOPA": "Metop-A"
+    },
+    "merged": {
+      "ATSR, AATSR, AVHRR_GAC": "ATSR,ATSR-2,AATSR,AVHRR-2,AVHRR-3"
     }
+  },
+  "defaults": {
+    "ecv": "sea surface temperature"
+  },
+  "overrides": {
+    "time_coverage_resolution": "climatology"
+  }
 }

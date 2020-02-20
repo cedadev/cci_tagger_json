@@ -1,21 +1,19 @@
 {
-    "datasets": [
-        "/neodc/esacci/sst/data/CDR_v2/ATSR/L3U/v2.1/ATSR2/"
-    ],
-    "mappings": {
-      "ecv":{
-        "GHRSST":"SST"
-      },
-      "time_coverage_resolution":{
-       "P0DT1H40M00S":"satellite orbit frequency"
-       },
-      "sensor":{
-        "ATSR":"ATSR-2"
-      },
-      "platform":{
-      }
+  "datasets": [
+    "/neodc/esacci/sst/data/CDR_v2/ATSR/L3U/v2.1/ATSR2/"
+  ],
+  "mappings": {
+    "ecv": {
+      "GHRSST": "SST"
     },
-    "defaults": {
-        "ecv":"sea surface temperature"
+    "time_coverage_resolution": {
+      "P0DT1H40M00S": "satellite orbit frequency"
+    },
+    "sensor": {
+      "ATSR": "ATSR-2"
     }
+  },
+  "defaults": {
+    "ecv": "sea surface temperature"
+  }
 }

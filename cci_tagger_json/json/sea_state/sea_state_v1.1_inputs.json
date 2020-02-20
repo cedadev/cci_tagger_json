@@ -1,33 +1,41 @@
 {
-	"datasets": [
-		"/neodc/esacci/sea_state/data/v1.1_release/l3",
-		"/neodc/esacci/sea_state/data/v1.1_release/l4"
-	],
-	"mappings": {
-		"ecv": {
-		},
-		"data_type":{
-		},
-		"time_coverage_resolution":{
-	        	"":"satellite orbit frequency",
-		        "1M":"month"
-		},
-		"level": {
-		},
-		"platform": {
-			   "TOPEX":"TOPEX/Poseidon"
-		},
-		"sensor": {
-		},
-		"version": {
-		}	       
-	},
-	"defaults": {
-    "ecv":"sea state",
-    "time_coverage_resolution":"satellite orbit frequency"
-	},
-   "overrides":{
-     "sensor":["RA", "RA-2","GFO-RA","Poseidon-2","SIRAL","Poseidon-3","Poseidon-3B","AltiKa"],
-     "platfrom":["ERS-1","ERS-2","GFO","TOPEX/Poseidon","JASON-1","JASON-2","JASON-3","CRYOSAT-2"]
- }
+  "datasets": [
+    "/neodc/esacci/sea_state/data/v1.1_release/l3",
+    "/neodc/esacci/sea_state/data/v1.1_release/l4"
+  ],
+  "mappings": {
+    "time_coverage_resolution": {
+      "": "satellite orbit frequency",
+      "1M": "month"
+    },
+    "platform": {
+      "TOPEX": "TOPEX/Poseidon"
+    }
+  },
+  "defaults": {
+    "ecv": "sea state",
+    "time_coverage_resolution": "satellite orbit frequency"
+  },
+  "overrides": {
+    "sensor": [
+      "RA",
+      "RA-2",
+      "GFO-RA",
+      "Poseidon-2",
+      "SIRAL",
+      "Poseidon-3",
+      "Poseidon-3B",
+      "AltiKa"
+    ],
+    "platfrom": [
+      "ERS-1",
+      "ERS-2",
+      "GFO",
+      "TOPEX/Poseidon",
+      "JASON-1",
+      "JASON-2",
+      "JASON-3",
+      "CRYOSAT-2"
+    ]
+  }
 }

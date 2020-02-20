@@ -4,20 +4,6 @@
     "/neodc/esacci/ice_sheets_antarctica/data/gravimetric_mass_balance/gridded/v1.1/"
 	],
 	"mappings": {
-		"ecv": {
-		},
-		"institution": {
-		},
-		"level": {
-		},
-		"platform": {
-		},
-		"sensor": {
-		},
-		"version": {
-		},
-		"product_string":{
-		}	
 	},
 	"defaults": {
     "ecv":"ice sheets",

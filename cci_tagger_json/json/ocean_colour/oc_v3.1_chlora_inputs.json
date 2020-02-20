@@ -1,18 +1,18 @@
 {
-    "datasets": [
-        "/neodc/esacci/ocean_colour/data/v3.1-release/geographic/netcdf/chlor_a/",
-        "/neodc/esacci/ocean_colour/data/v3.1-release/sinusoidal/netcdf/chlor_a/"
-    ],
-    "mappings": {
-    "platform":{
-    "Suomi-NPP":"SNPP"
+  "datasets": [
+    "/neodc/esacci/ocean_colour/data/v3.1-release/geographic/netcdf/chlor_a/",
+    "/neodc/esacci/ocean_colour/data/v3.1-release/sinusoidal/netcdf/chlor_a/"
+  ],
+  "mappings": {
+    "platform": {
+      "Suomi-NPP": "SNPP"
     }
-    },
-    "defaults": {
-    "ecv":"ocean colour"
-    },
-    "realisations": {
-        "/neodc/esacci/ocean_colour/data/v3.1-release/geographic/netcdf/chlor_a/":"geographic",
-        "/neodc/esacci/ocean_colour/data/v3.1-release/sinusoidal/netcdf/chlor_a/": "sinusoidal"
-    }
+  },
+  "defaults": {
+    "ecv": "ocean colour"
+  },
+  "realisations": {
+    "/neodc/esacci/ocean_colour/data/v3.1-release/geographic/netcdf/chlor_a/": "geographic",
+    "/neodc/esacci/ocean_colour/data/v3.1-release/sinusoidal/netcdf/chlor_a/": "sinusoidal"
+  }
 }

@@ -1,18 +1,18 @@
 {
-    "datasets": [
-        "/neodc/esacci/sea_level/data/IND/v2.0/MSL/",
-	"/neodc/esacci/sea_level/data/IND/v2.0/MSLAMPH/",	
- 	"/neodc/esacci/sea_level/data/IND/v2.0/MSLTR/"
-    ],
-    "mappings": {
-      "sensor":{
-      "RA2":"RA-2"
-	},
-      "merged":{
-      "RA, RA2, Poseidon-1, Poseidon-2, Poseidon-3, GFO-RA, SARAL, AltiKa":"RA, RA-2, Poseidon-1, Poseidon-2, Poseidon-3, GFO-RA, SARAL, AltiKa"
-      }
+  "datasets": [
+    "/neodc/esacci/sea_level/data/IND/v2.0/MSL/",
+    "/neodc/esacci/sea_level/data/IND/v2.0/MSLAMPH/",
+    "/neodc/esacci/sea_level/data/IND/v2.0/MSLTR/"
+  ],
+  "mappings": {
+    "sensor": {
+      "RA2": "RA-2"
     },
-    "defaults": {
-        "ecv":"sea level"
+    "merged": {
+      "RA, RA2, Poseidon-1, Poseidon-2, Poseidon-3, GFO-RA, SARAL, AltiKa": "RA, RA-2, Poseidon-1, Poseidon-2, Poseidon-3, GFO-RA, SARAL, AltiKa"
     }
+  },
+  "defaults": {
+    "ecv": "sea level"
+  }
 }

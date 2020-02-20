@@ -1,7 +1,7 @@
 {
    "datasets": [
       "/neodc/esacci/aerosol/data/AATSR_SU/L3/v4.21/DAILY/",
-      "/neodc/esacci/aerosol/data/ATSR2_SU/L3/v4.21/DAILY/"
+      "/neodc/esacci/aerosol/data/ATSR2_SU/L3/v4.21/DAILY_unc/"
     ],
     "mappings":{
       "product_string":{
@@ -20,7 +20,7 @@
       "time_coverage_resolution":"day"
     },
     "realisations":{
-     "/neodc/esacci/aerosol/data/AATSR_ADV/L3/v2.30/DAILY/":"r1",
-     "/neodc/esacci/aerosol/data/AATSR_ADV/L3/v2.30/DAILY_unc/":"unc"
+     "/neodc/esacci/aerosol/data/AATSR_SU/L3/v4.21/DAILY/":"r1",
+     "/neodc/esacci/aerosol/data/ATSR2_SU/L3/v4.21/DAILY_unc/":"unc"
     }
 }

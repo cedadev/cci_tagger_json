@@ -1,17 +1,13 @@
 {
-    "datasets": [
-        "/neodc/esacci/sst/data/CDR_v2/ATSR/L2P/v2.1/ATSR1/"
-    ],
-    "mappings": {
-      "ecv":{
-        "GHRSST":"SST"
-      },
-      "sensor":{
-      },
-      "platform":{
-      }
-    },
-    "defaults": {
-        "ecv":"sea surface temperature"
+  "datasets": [
+    "/neodc/esacci/sst/data/CDR_v2/ATSR/L2P/v2.1/ATSR1/"
+  ],
+  "mappings": {
+    "ecv": {
+      "GHRSST": "SST"
     }
+  },
+  "defaults": {
+    "ecv": "sea surface temperature"
+  }
 }
