@@ -9,4 +9,4 @@ test:
     - pip install -e $CI_PROJECT_DIR
     - pip install git+https://github.com/rsmith013/cci-tagger.git
   script:
-    - python json_check cci_tagger_json/json/*/*.json
+    - cci_json_check cci_tagger_json/json/*/*.json
