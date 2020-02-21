@@ -1,26 +1,16 @@
 {
-	"datasets": [
-		"/neodc/esacci/ghg/data/crdp_4/SCIAMACHY/CH4_SCI_IMAP/v7.2/"
-	],
-	"mappings": {
-		"ecv": {
-		},
-		"institution": {
-     "SRON Netherlands Institute for Space Research":"Netherlands Institute for Space Research"
-		},
-		"level": {
-		},
-		"platform": {
-		},
-		"sensor": {
-		},
-		"version": {
-		},
-		"product_string":{
-     "SCIAMACHY":"IMAP"
-		}	
-	},
-	"defaults": {
-    "ecv":"greenhouse gases"
-	}
+  "datasets": [
+    "/neodc/esacci/ghg/data/crdp_4/SCIAMACHY/CH4_SCI_IMAP/v7.2/"
+  ],
+  "mappings": {
+    "institution": {
+      "SRON Netherlands Institute for Space Research": "Netherlands Institute for Space Research"
+    },
+    "product_string": {
+      "SCIAMACHY": "IMAP"
+    }
+  },
+  "defaults": {
+    "ecv": "greenhouse gases"
+  }
 }

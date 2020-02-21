@@ -1,26 +1,12 @@
 {
-	"datasets": [
-		"/neodc/esacci/fire/data/burned_area/SFD/Africa/Sentinel2/grid/v1.1/",
+  "datasets": [
+    "/neodc/esacci/fire/data/burned_area/SFD/Africa/Sentinel2/grid/v1.1/",
     "/neodc/esacci/fire/data/burned_area/SFD/Africa/Sentinel2/pixel/v1.1/"
-	],
-	"mappings": {
-		"ecv": {
-		},
-		"institution": {
-		},
-		"level": {
-		},
-		"platform": {
-		},
-		"sensor": {
-		},
-		"version": {
-		},
-		"product_string":{
-		}	
-	},
-	"defaults": {
-	        "ecv":"fire",
-          "data_type":"condition fire (burned area)"
-	}
+  ],
+  "mappings": {
+  },
+  "defaults": {
+    "ecv": "fire",
+    "data_type": "condition fire (burned area)"
+  }
 }

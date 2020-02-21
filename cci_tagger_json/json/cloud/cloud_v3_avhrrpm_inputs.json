@@ -1,26 +1,26 @@
 {
-	"datasets": [
-		"/neodc/esacci/cloud/data/version3/L3C/AVHRR-PM/"
-	],
-	"mappings": {
-		"institution":{
-		"Freie Universität Berlin (FUB)":"Freie Universitaet Berlin"
-		},
-		"product_string":{
-		"AVHRR_NOAA":"AVHRR-PM"
-		},
-		"merged":{
-		"NOAA-7":"NOAA-7,NOAA-9,NOAA-11,NOAA-14,NOAA-16,NOAA-18,NOAA-19",
-   	"NOAA-9":"NOAA-7,NOAA-9,NOAA-11,NOAA-14,NOAA-16,NOAA-18,NOAA-19",
-   	"NOAA-11":"NOAA-7,NOAA-9,NOAA-11,NOAA-14,NOAA-16,NOAA-18,NOAA-19",
-   	"NOAA-14":"NOAA-7,NOAA-9,NOAA-11,NOAA-14,NOAA-16,NOAA-18,NOAA-19",
-   	"NOAA-16":"NOAA-7,NOAA-9,NOAA-11,NOAA-14,NOAA-16,NOAA-18,NOAA-19",
-   	"NOAA-18":"NOAA-7,NOAA-9,NOAA-11,NOAA-14,NOAA-16,NOAA-18,NOAA-19",
-   	"NOAA-19":"NOAA-7,NOAA-9,NOAA-11,NOAA-14,NOAA-16,NOAA-18,NOAA-19",
-		"AVHRR":"AVHRR-2,AVHRR-3"
-    }	       
-	},
-	"defaults": {
-	        "ecv":"cloud"
-	}
+  "datasets": [
+    "/neodc/esacci/cloud/data/version3/L3C/AVHRR-PM/"
+  ],
+  "mappings": {
+    "institution": {
+      "Freie Universität Berlin (FUB)": "Freie Universitaet Berlin"
+    },
+    "product_string": {
+      "AVHRR_NOAA": "AVHRR-PM"
+    },
+    "merged": {
+      "NOAA-7": "NOAA-7,NOAA-9,NOAA-11,NOAA-14,NOAA-16,NOAA-18,NOAA-19",
+      "NOAA-9": "NOAA-7,NOAA-9,NOAA-11,NOAA-14,NOAA-16,NOAA-18,NOAA-19",
+      "NOAA-11": "NOAA-7,NOAA-9,NOAA-11,NOAA-14,NOAA-16,NOAA-18,NOAA-19",
+      "NOAA-14": "NOAA-7,NOAA-9,NOAA-11,NOAA-14,NOAA-16,NOAA-18,NOAA-19",
+      "NOAA-16": "NOAA-7,NOAA-9,NOAA-11,NOAA-14,NOAA-16,NOAA-18,NOAA-19",
+      "NOAA-18": "NOAA-7,NOAA-9,NOAA-11,NOAA-14,NOAA-16,NOAA-18,NOAA-19",
+      "NOAA-19": "NOAA-7,NOAA-9,NOAA-11,NOAA-14,NOAA-16,NOAA-18,NOAA-19",
+      "AVHRR": "AVHRR-2,AVHRR-3"
+    }
+  },
+  "defaults": {
+    "ecv": "cloud"
+  }
 }

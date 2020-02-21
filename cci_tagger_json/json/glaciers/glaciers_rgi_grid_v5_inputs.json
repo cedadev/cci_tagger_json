@@ -1,24 +1,10 @@
 {
-	"datasets": [
-		"/neodc/esacci/glaciers/data/randolph_glacier_inventory/gridded/v5.0/"
-	],
-	"mappings": {
-		"ecv": {
-		},
-		"institution": {
-		},
-		"level": {
-		},
-		"platform": {
-		},
-		"sensor": {
-		},
-		"version": {
-		},
-		"product_string":{
-		}	
-	},
-	"defaults": {
-    "ecv":"glaciers"
-	}
+  "datasets": [
+    "/neodc/esacci/glaciers/data/randolph_glacier_inventory/gridded/v5.0/"
+  ],
+  "mappings": {
+  },
+  "defaults": {
+    "ecv": "glaciers"
+  }
 }

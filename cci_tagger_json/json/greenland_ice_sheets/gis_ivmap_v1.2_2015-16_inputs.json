@@ -1,16 +1,16 @@
 {
-	"datasets": [
-		"/neodc/esacci/ice_sheets_greenland/data/greenland_ice_velocity/greenland_ice_velocity_map_winter_2015_2016/v1.2/"
-	],
-	"mappings": {
-       "institution":{
-         "ENVEO IT GmbH":"ENVironmental Earth Observation IT GmbH"
-       }
-		},
-     "defaults": {
-       "ecv":"ice sheets",
-       "institution":"ENVironmental Earth Observation IT GmbH",
-       "data_type":"ice sheet velocity",
-       "product_version":"v1.2"
-	}   
+  "datasets": [
+    "/neodc/esacci/ice_sheets_greenland/data/greenland_ice_velocity/greenland_ice_velocity_map_winter_2015_2016/v1.2/"
+  ],
+  "mappings": {
+    "institution": {
+      "ENVEO IT GmbH": "ENVironmental Earth Observation IT GmbH"
+    }
+  },
+  "defaults": {
+    "ecv": "ice sheets",
+    "institution": "ENVironmental Earth Observation IT GmbH",
+    "data_type": "ice sheet velocity",
+    "product_version": "v1.2"
+  }
 }

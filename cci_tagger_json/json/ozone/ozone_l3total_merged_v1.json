@@ -1,17 +1,25 @@
 {
-	"datasets": [
-		"/neodc/esacci/ozone/data/total_columns/l3/merged/v0100/"
-	],
-	"mappings": {
-   "institution":{
-     "Deutsches Zentrum fuer Luft- und Raumfahrt (DLR)":"Deutsches Zentrum fuer Luft- und Raumfahrt"
-     }
-		},
+  "datasets": [
+    "/neodc/esacci/ozone/data/total_columns/l3/merged/v0100/"
+  ],
+  "mappings": {
+    "institution": {
+      "Deutsches Zentrum fuer Luft- und Raumfahrt (DLR)": "Deutsches Zentrum fuer Luft- und Raumfahrt"
+    }
+  },
   "defaults": {
-       "ecv":"ozone"
-	},
-  "overrides":{
-    "sensor":["GOME-2", "GOME", "SCIAMACHY"],
-    "platform":["Envisat","Metop-A","ERS-2"]
+    "ecv": "ozone"
+  },
+  "overrides": {
+    "sensor": [
+      "GOME-2",
+      "GOME",
+      "SCIAMACHY"
+    ],
+    "platform": [
+      "Envisat",
+      "Metop-A",
+      "ERS-2"
+    ]
   }
 }

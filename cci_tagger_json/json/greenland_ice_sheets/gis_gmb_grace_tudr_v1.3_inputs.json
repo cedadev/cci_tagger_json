@@ -1,20 +1,22 @@
 {
-	"datasets": [
-		"/neodc/esacci/ice_sheets_greenland/data/greenland_gravimetric_mass_balance/TU_Dresden/v1.3/"
-	],
-	"mappings": {
-       "institution":{
-       "TU Dresden, Chair of Geodetic Earth System Research":"TUDr"
-       }
-		},
-     "defaults": {
-       "ecv":"ice sheets",
-       "data_type":"gravimetric mass balance",
-	     "institution":"TUDr",
-       "platform":"GRACE",
-       "product_version":"v1.3"
-	},
-   "overrides":{
-       "institution":["TUDr"]
-  }   
+  "datasets": [
+    "/neodc/esacci/ice_sheets_greenland/data/greenland_gravimetric_mass_balance/TU_Dresden/v1.3/"
+  ],
+  "mappings": {
+    "institution": {
+      "TU Dresden, Chair of Geodetic Earth System Research": "TUDr"
+    }
+  },
+  "defaults": {
+    "ecv": "ice sheets",
+    "data_type": "gravimetric mass balance",
+    "institution": "TUDr",
+    "platform": "GRACE",
+    "product_version": "v1.3"
+  },
+  "overrides": {
+    "institution": [
+      "TUDr"
+    ]
+  }
 }

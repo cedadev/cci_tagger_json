@@ -1,16 +1,16 @@
 {
-	"datasets": [
-		"/neodc/esacci/ozone/data/limb_profiles/l3/smr_odin_544_6/monthly_zonal_mean/v0001/"
-	],
-	"mappings": {
-   "sensor":{
-     "SMR_544.6GHz":"SMR"
-     }
-		},
+  "datasets": [
+    "/neodc/esacci/ozone/data/limb_profiles/l3/smr_odin_544_6/monthly_zonal_mean/v0001/"
+  ],
+  "mappings": {
+    "sensor": {
+      "SMR_544.6GHz": "SMR"
+    }
+  },
   "defaults": {
-       "ecv":"ozone",
-       "data_type":"ozone limb profile",
-       "time_coverage_resolution":"month",
-       "product_version":"v0001"
-	}
+    "ecv": "ozone",
+    "data_type": "ozone limb profile",
+    "time_coverage_resolution": "month",
+    "product_version": "v0001"
+  }
 }

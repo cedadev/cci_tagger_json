@@ -1,29 +1,19 @@
 {
-	"datasets": [
-   "/neodc/esacci/ghg/data/crdp_4/EMMA/CH4/v1.2/",
-   "/neodc/esacci/ghg/data/crdp_4/EMMA/CO2/v2.2/emma_v2.2a/",
-   "/neodc/esacci/ghg/data/crdp_4/EMMA/CO2/v2.2/emma_v2.2b/",
-   "/neodc/esacci/ghg/data/crdp_4/EMMA/CO2/v2.2/emma_v2.2c/"
-	],
-	"mappings": {
-		"ecv": {
-		},
-		"institution": {
-     "SRON Netherlands Institute for Space Research":"Netherlands Institute for Space Research"
-		},
-		"level": {
-		},
-		"platform": {
-		},
-		"sensor": {
-		},
-		"version": {
-		},
-		"product_string":{
-     "VARIOUS":"EMMA"
-		}	
-	},
-	"defaults": {
-    "ecv":"greenhouse gases"
-	}
+  "datasets": [
+    "/neodc/esacci/ghg/data/crdp_4/EMMA/CH4/v1.2/",
+    "/neodc/esacci/ghg/data/crdp_4/EMMA/CO2/v2.2/emma_v2.2a/",
+    "/neodc/esacci/ghg/data/crdp_4/EMMA/CO2/v2.2/emma_v2.2b/",
+    "/neodc/esacci/ghg/data/crdp_4/EMMA/CO2/v2.2/emma_v2.2c/"
+  ],
+  "mappings": {
+    "institution": {
+      "SRON Netherlands Institute for Space Research": "Netherlands Institute for Space Research"
+    },
+    "product_string": {
+      "VARIOUS": "EMMA"
+    }
+  },
+  "defaults": {
+    "ecv": "greenhouse gases"
+  }
 }

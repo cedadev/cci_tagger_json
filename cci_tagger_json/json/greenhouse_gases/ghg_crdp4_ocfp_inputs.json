@@ -1,29 +1,21 @@
 {
-	"datasets": [
-   "/neodc/esacci/ghg/data/crdp_4/GOSAT/CH4_GOS_OCFP/v2.1",
-   "/neodc/esacci/ghg/data/crdp_4/GOSAT/CO2_GOS_OCFP/v7.0"
-	],
-	"mappings": {
-		"ecv": {
-		},
-		"institution": {
-     "SRON Netherlands Institute for Space Research":"Netherlands Institute for Space Research"
-		},
-		"level": {
-		},
-		"platform": {
-		},
-		"sensor": {
-		},
-		"product_version": {
-     "v701":"v7-0-1",
-     "v21":"v2-1"
-		},
-		"product_string":{
-     "GOSAT":"OCFP"
-		}	
-	},
-	"defaults": {
-    "ecv":"greenhouse gases"
-	}
+  "datasets": [
+    "/neodc/esacci/ghg/data/crdp_4/GOSAT/CH4_GOS_OCFP/v2.1",
+    "/neodc/esacci/ghg/data/crdp_4/GOSAT/CO2_GOS_OCFP/v7.0"
+  ],
+  "mappings": {
+    "institution": {
+      "SRON Netherlands Institute for Space Research": "Netherlands Institute for Space Research"
+    },
+    "product_version": {
+      "v701": "v7-0-1",
+      "v21": "v2-1"
+    },
+    "product_string": {
+      "GOSAT": "OCFP"
+    }
+  },
+  "defaults": {
+    "ecv": "greenhouse gases"
+  }
 }
