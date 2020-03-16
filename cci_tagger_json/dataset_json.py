@@ -56,6 +56,11 @@ class DatasetJSONMappings:
                     continue
 
                 for dataset in data.get('datasets',[]):
+
+                    # Strip trailing slash
+                    if dataset.endswith('/'):
+                        dataset = dataset[:-1]
+
                     self._dataset_tree.add_child(dataset)
                     self._json_lookup[dataset] = file
 
