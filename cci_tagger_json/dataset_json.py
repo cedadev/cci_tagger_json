@@ -186,18 +186,27 @@ class DatasetJSONMappings:
         if nested_get(keys, data):
             realisation = nested_get(keys, data)
 
-        # Check for dataset realisations with trailing slash
+        # Check for dataset realisations for dataset with trailing slash
         keys = ('realisations', f'{dataset}/')
         if nested_get(keys, data):
             realisation = nested_get(keys, data)
 
-        # Check if there are filters
-        keys = ('filters',dataset)
-        if nested_get(keys, data):
+        # Check if there are filters for dataset
+        keys = ('filters', dataset)
+        filters = nested_get(keys, data)
+
+        # Check if there are filters for dataset with trailing slash
+        if not filters:
+            keys = ('filters', f'{dataset}/')
+            filters = nested_get(keys, data)
+
+        # If there are filters, these override dataset level realisations
+        if filters:
+
             filename = os.path.basename(filepath)
 
             # Check file against all filters
-            for filter in nested_get(keys, data):
+            for filter in filters:
                 m = re.match(filter['pattern'],filename)
 
                 if m:
