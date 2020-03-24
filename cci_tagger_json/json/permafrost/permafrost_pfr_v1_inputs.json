@@ -3,35 +3,24 @@
 		"/neodc/esacci/permafrost/data/permafrost_extent/L4/area4/pp/v01.0/"
 	],
 	"mappings": {
-		"ecv": {
+		"data_type": {
+			"MODIS": "PFR"
 		},
-		"data_type":{
-		"MODIS":"PFR"
+		"institution": {
+			"University of Oslo": "Department of GeoSciences, University of Oslo"
 		},
-		"institution":{
-		"University of Oslo":"Department of GeoSciences, University of Oslo"
-		},
-		"time_coverage_resolution":{
-		"julian year":"year"
-		},
-		"level": {
-		},
-		"platform": {
+		"time_coverage_resolution": {
+			"julian year": "year"
 		},
 		"sensor": {
-		"SPOT":"VEGETATION",
-		"AVHRR/3":"AVHRR-3"		
+			"SPOT": "VEGETATION",
+			"AVHRR/3": "AVHRR-3"
 		},
-		"version": {
-		},
-		"product_string":{
-		"PFR":"MODIS"
-		},
-		"merged":{
-		}	       
-
+		"product_string": {
+			"PFR": "MODIS"
+		}
 	},
 	"defaults": {
-	        "ecv":"permafrost" 
+		"ecv": "permafrost"
 	}
 }

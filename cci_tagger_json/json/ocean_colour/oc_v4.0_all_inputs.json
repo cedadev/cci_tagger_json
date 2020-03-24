@@ -1,18 +1,18 @@
 {
-    "datasets": [
-        "/neodc/esacci/ocean_colour/data/v4.0-release/geographic/netcdf/all_products/",
-        "/neodc/esacci/ocean_colour/data/v4.0-release/sinusoidal/netcdf/all_products/"
-    ],
-    "mappings": {
-    "platform":{
-    "Suomi-NPP":"SNPP"
+  "datasets": [
+    "/neodc/esacci/ocean_colour/data/v4.0-release/geographic/netcdf/all_products/",
+    "/neodc/esacci/ocean_colour/data/v4.0-release/sinusoidal/netcdf/all_products/"
+  ],
+  "mappings": {
+    "platform": {
+      "Suomi-NPP": "SNPP"
     }
-    },
-    "defaults": {
-    "ecv":"ocean colour"
-    },
-    "realisations": {
-        "/neodc/esacci/ocean_colour/data/v4.0-release/geographic/netcdf/all_products/":"geographic",
-        "/neodc/esacci/ocean_colour/data/v4.0-release/sinusoidal/netcdf/all_products/": "sinusoidal"
-    }
+  },
+  "defaults": {
+    "ecv": "ocean colour"
+  },
+  "realisations": {
+    "/neodc/esacci/ocean_colour/data/v4.0-release/geographic/netcdf/all_products/": "geographic",
+    "/neodc/esacci/ocean_colour/data/v4.0-release/sinusoidal/netcdf/all_products/": "sinusoidal"
+  }
 }

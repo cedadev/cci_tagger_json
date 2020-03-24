@@ -1,26 +1,12 @@
 {
-	"datasets": [
-		"/neodc/esacci/sea_state/data/v1.1_release/l2p/ers-1/"
-	],
-	"mappings": {
-		"ecv": {
-		},
-		"data_type":{
-		},
-		"level": {
-		},
-		"platform": {
-		},
-		"sensor": {
-		},
-		"version": {
-		},
-		"product_string":{
-		}     
-	},
-	"defaults": {
-	        "ecv":"sea state", 
-		"time_coverage_resolution":"satellite orbit frequency",
-		"sensor":"RA"
-	}
+  "datasets": [
+    "/neodc/esacci/sea_state/data/v1.1_release/l2p/ers-1/"
+  ],
+  "mappings": {
+  },
+  "defaults": {
+    "ecv": "sea state",
+    "time_coverage_resolution": "satellite orbit frequency",
+    "sensor": "RA"
+  }
 }

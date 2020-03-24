@@ -1,19 +1,19 @@
 {
-	"datasets": [
-		"/neodc/esacci/cloud/data/phase-2/L3C/MERIS-AATSR/"
-	],
-	"mappings": {
- 		"institution":{
-		"Freie Universität Berlin (FUB)":"Freie Universitaet Berlin"
-		},
-		"product_string":{
-    "MERIS":"MERIS-AATSR"
-		},
-		"merged":{
-		"MERIS-AATSR":"MERIS,AATSR"
-		}	       
-	},
-	"defaults": {
-	        "ecv":"cloud"
-	}
+  "datasets": [
+    "/neodc/esacci/cloud/data/phase-2/L3C/MERIS-AATSR/"
+  ],
+  "mappings": {
+    "institution": {
+      "Freie Universität Berlin (FUB)": "Freie Universitaet Berlin"
+    },
+    "product_string": {
+      "MERIS": "MERIS-AATSR"
+    },
+    "merged": {
+      "MERIS-AATSR": "MERIS,AATSR"
+    }
+  },
+  "defaults": {
+    "ecv": "cloud"
+  }
 }

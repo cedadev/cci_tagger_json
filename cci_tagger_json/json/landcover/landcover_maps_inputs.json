@@ -1,18 +1,18 @@
 {
-    "datasets": [
-        "/neodc/esacci/land_cover/data/land_cover_maps/v2.0.7/"
-    ],
-    "mappings": {
-    },
-    "defaults": {
-    "ecv":"land cover",
-    "sensor":"MERIS, AVHRR, Vegetation",
-    "platform":"ENVISAT, SPOT-4, SPOT-5",
-    "time_coverage_resolution":"year",
-    "processing_level":"L4",
-    "product_string":"map",
-    "data_type":"land cover classification system",
-    "institution":"Universite Catholique de Louvain",
-    "product_version":"2.0.7"
-    }
+  "datasets": [
+    "/neodc/esacci/land_cover/data/land_cover_maps/v2.0.7/"
+  ],
+  "mappings": {
+  },
+  "defaults": {
+    "ecv": "land cover",
+    "sensor": "MERIS, AVHRR, Vegetation",
+    "platform": "ENVISAT, SPOT-4, SPOT-5",
+    "time_coverage_resolution": "year",
+    "processing_level": "L4",
+    "product_string": "map",
+    "data_type": "land cover classification system",
+    "institution": "Universite Catholique de Louvain",
+    "product_version": "2.0.7"
+  }
 }

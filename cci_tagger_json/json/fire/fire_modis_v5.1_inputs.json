@@ -1,37 +1,27 @@
 {
-	"datasets": [
-		"/neodc/esacci/fire/data/burned_area/MODIS/grid/v5.1/",
+  "datasets": [
+    "/neodc/esacci/fire/data/burned_area/MODIS/grid/v5.1/",
     "/neodc/esacci/fire/data/burned_area/MODIS/pixel/v5.1/"
-	],
-	"mappings": {
-		"ecv": {
-		},
-		"time_coverage_resolution":{
-			"P28D":"month",
-			"P29D":"month",
-			"P30D":"month",
-			"P31D":"month",
-			"P1M":"month"
-		},
-		"institution": {
-		},
-		"level": {
-		},
-		"platform": {
-		},
-		"sensor": {
-		},
-		"version": {
-		},
-		"product_string":{
-			"MODIS":"MODIS_TERRA" 
-		}	
-	},
-	"defaults": {
-	        "ecv":"fire",
-          "data_type":"condition fire (burned area)",
-          "sensor":"modis",
-          "platform":"Terra",
-          "institution":"University of Alcala"
-	}
+  ],
+  "mappings": {
+    "ecv": {
+    },
+    "time_coverage_resolution": {
+      "P28D": "month",
+      "P29D": "month",
+      "P30D": "month",
+      "P31D": "month",
+      "P1M": "month"
+    },
+    "product_string": {
+      "MODIS": "MODIS_TERRA"
+    }
+  },
+  "defaults": {
+    "ecv": "fire",
+    "data_type": "condition fire (burned area)",
+    "sensor": "modis",
+    "platform": "Terra",
+    "institution": "University of Alcala"
+  }
 }

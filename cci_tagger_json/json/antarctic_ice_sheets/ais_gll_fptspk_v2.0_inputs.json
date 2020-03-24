@@ -3,20 +3,6 @@
 		"/neodc/esacci/ice_sheets_antarctica/data/grounding_line_locations/Ferrigno_PineIS_Thwaites_Smith_Pope_Kohler/v2.0_cci_subset"
 	],
 	"mappings": {
-		"ecv": {
-		},
-		"institution": {
-		},
-		"processing_level": {
-		},
-		"platform": {
-		},
-		"sensor": {
-		},
-		"version": {
-		},
-		"product_string":{
-		}	
 	},
 	"defaults": {
     "ecv":"ice sheets",

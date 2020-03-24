@@ -1,19 +1,19 @@
 {
-	"datasets": [
-		"/neodc/esacci/ice_sheets_greenland/data/greenland_ice_velocity/greenland_ice_velocity_map_winter_2013_2014/v1.0"
-	],
-	"mappings": {
-       "institution":{
-         "DTU-Space MRS":"DTU Space"
-       }
-		},
-     "defaults": {
-       "ecv":"ice sheets",
-       "institution":"DTU Space",
-       "data_type":"ice sheet velocity",
-       "product_version":"v1.0",
-       "platform":"RadarSat-2"
-	},
-   "overrides":{
-  }   
+  "datasets": [
+    "/neodc/esacci/ice_sheets_greenland/data/greenland_ice_velocity/greenland_ice_velocity_map_winter_2013_2014/v1.0"
+  ],
+  "mappings": {
+    "institution": {
+      "DTU-Space MRS": "DTU Space"
+    }
+  },
+  "defaults": {
+    "ecv": "ice sheets",
+    "institution": "DTU Space",
+    "data_type": "ice sheet velocity",
+    "product_version": "v1.0",
+    "platform": "RadarSat-2"
+  },
+  "overrides": {
+  }
 }

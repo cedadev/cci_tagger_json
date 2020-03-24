@@ -17,23 +17,19 @@ import re
 
 class DatasetJSONMappings:
 
-    # A mapping between the datasets and the filepath to the JSON file
-    # containing the mappings
-    _json_lookup = {}
-
-    # Place to cache the loaded mappings from the JSON files once they are required
-    # in the processing
-    _user_json_cache = {}
-
-    # Place to store mappings between datasets and realisation
-    _dataset_realisations = {}
-
-
     def __init__(self, json_files=None):
         """
         :param json_files: A collection of json files to read in. Defaults to None.
         This means that the local json files will be loaded.
         """
+
+        # A mapping between the datasets and the filepath to the JSON file
+        # containing the mappings
+        self._json_lookup = {}
+
+        # Place to cache the loaded mappings from the JSON files once they are required
+        # in the processing
+        self._user_json_cache = {}
 
         # Init tree
         if json_files is None:
@@ -43,7 +39,7 @@ class DatasetJSONMappings:
         # Load local JSON files
         if not json_files:
             path_root = os.path.dirname(os.path.abspath(__file__))
-            json_files = Path('/').glob(os.path.join(path_root[1:], 'json/**/*.json'))
+            json_files = Path('/').glob(os.path.join(path_root.lstrip('/'), 'json/**/*.json'))
 
         # Read all the json files and build a tree of datasets
         for file in json_files:
@@ -56,13 +52,12 @@ class DatasetJSONMappings:
                     continue
 
                 for dataset in data.get('datasets',[]):
+
+                    # Strip trailing slash. Needed to make sure tree search works
+                    dataset = dataset.rstrip('/')
+
                     self._dataset_tree.add_child(dataset)
                     self._json_lookup[dataset] = file
-
-                # Add the realisations
-                realisations = data.get('realisations', {})
-                for dataset in realisations:
-                    self._dataset_realisations[dataset] = realisations[dataset]
 
     def get_dataset(self, path):
         """
@@ -191,13 +186,27 @@ class DatasetJSONMappings:
         if nested_get(keys, data):
             realisation = nested_get(keys, data)
 
-        # Check if there are filters
-        keys = ('filters',dataset)
+        # Check for dataset realisations for dataset with trailing slash
+        keys = ('realisations', f'{dataset}/')
         if nested_get(keys, data):
+            realisation = nested_get(keys, data)
+
+        # Check if there are filters for dataset
+        keys = ('filters', dataset)
+        filters = nested_get(keys, data)
+
+        # Check if there are filters for dataset with trailing slash
+        if not filters:
+            keys = ('filters', f'{dataset}/')
+            filters = nested_get(keys, data)
+
+        # If there are filters, these override dataset level realisations
+        if filters:
+
             filename = os.path.basename(filepath)
 
             # Check file against all filters
-            for filter in nested_get(keys, data):
+            for filter in filters:
                 m = re.match(filter['pattern'],filename)
 
                 if m:

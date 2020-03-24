@@ -7,7 +7,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="cci_tagger_json",
-    version="0.0.1",
+    version="0.0.2",
     author="Richard Smith",
     author_email="richard.d.smith@stfc.ac.uk",
     description="description",
