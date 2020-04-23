@@ -1,0 +1,16 @@
+{
+  "datasets": [
+    "/neodc/esacci/ghg/data/cci_plus/CH4_S5P_WFMD/v1.2/"
+  ],
+  "mappings": {
+    "institution": {
+    },
+    "product_version": {
+    },
+    "product_string": {
+    }
+  },
+  "defaults": {
+    "ecv": "greenhouse gases"
+  }
+}

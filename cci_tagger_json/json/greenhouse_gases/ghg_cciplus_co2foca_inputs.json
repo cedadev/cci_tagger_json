@@ -1,0 +1,19 @@
+{
+  "datasets": [
+    "/neodc/esacci/ghg/data/cci_plus/CO2_OC2_FOCA/v8.0/"
+  ],
+  "mappings": {
+    "product_version": {
+    },
+    "product_string": {
+    },
+    "sensor":{
+    "OCO-2":"OCO"
+    }
+  },
+  "defaults": {
+    "ecv": "greenhouse gases",
+    "processing_level":"L2",
+    "data_type":"CO2"
+  }
+}
