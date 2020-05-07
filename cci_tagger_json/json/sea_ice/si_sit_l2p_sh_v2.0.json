@@ -1,0 +1,18 @@
+{
+    "datasets": [
+        "/neodc/esacci/sea_ice/data/sea_ice_thickness/L2P/cryosat2/v2.0/SH/",
+	"/neodc/esacci/sea_ice/data/sea_ice_thickness/L2P/envisat/v2.0/SH/"
+     ],
+    "mappings": {
+      "institution":{
+	"Alfred-Wegener-Institut Helmholtz Zentrum für Polar und Meeresforschung":"Alfred-Wegener-Institut Helmholtz-Zentrum für Polar- und Meeresforschung"
+      },
+      "product_string":{
+	"RA2_ENVISAT":"SH",
+	"SIRAL_CRYOSAT2":"SH"
+      }      	
+    },
+    "defaults": {
+        "ecv":"sea ice"
+    }
+}

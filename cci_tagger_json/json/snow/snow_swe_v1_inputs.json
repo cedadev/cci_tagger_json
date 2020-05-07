@@ -1,0 +1,10 @@
+{
+	"datasets": [
+		"/neodc/esacci/snow/data/swe/MERGED/v1.0/"
+	],
+	"mappings": {
+	},
+	"defaults": {
+		"ecv": "snow"
+	}
+}
