@@ -11,7 +11,7 @@ test:
     - pip install requests
     - pip install -e git+https://github.com/rsmith013/cci-tagger.git#egg=cci_tagger
   script:
-    - python cci-tagger/scripts/check_json.py cci_tagger_json/json/*/*.json
+    - cci_json_check cci_tagger_json/json/*/*.json
 
 deploy:
   stage: deploy
