@@ -9,7 +9,7 @@ test:
     - pip install git+https://github.com/cedadev/directory-tree.git
     - pip install -e $CI_PROJECT_DIR
     - pip install requests
-    - pip install -e git+https://github.com/rsmith013/cci-tagger.git
+    - pip install -e git+https://github.com/rsmith013/cci-tagger.git#egg=cci_tagger
   script:
     - python cci-tagger/scripts/check_json.py cci_tagger_json/json/*/*.json
 
