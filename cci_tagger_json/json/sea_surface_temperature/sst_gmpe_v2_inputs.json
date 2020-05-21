@@ -1,0 +1,22 @@
+{
+    "datasets": [
+        "/neodc/esacci/sst/data/gmpe/CDR_V2/"
+    ],
+    "mappings": {
+      "ecv":{
+        "GHRSST":"SST"
+      },
+      "institution":{
+        "UKMO":"Met Office Hadley Centre"
+      },
+      "data_type":{
+        "SST":"SSTskin"
+      }
+    },
+    "defaults": {
+        "ecv":"sea surface temperature",
+        "product_string":"GMPEREAN",
+        "processing_level":"L4",
+        "time_coverage_resolution":"P1D"
+    }
+}
