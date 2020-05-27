@@ -15,5 +15,11 @@
   },
   "defaults": {
     "ecv": "cloud"
-  }
+  },
+  "aggregations": [
+    {
+      "pattern": ".*",
+      "wcs": true
+    }
+  ]
 }

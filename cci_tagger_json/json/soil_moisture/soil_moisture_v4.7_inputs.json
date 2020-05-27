@@ -16,5 +16,11 @@
   },
   "defaults": {
     "ecv": "soil moisture"
-  }
+  },
+  "aggregations": [
+    {
+      "pattern": ".*",
+      "wcs": true
+    }
+  ]
 }
