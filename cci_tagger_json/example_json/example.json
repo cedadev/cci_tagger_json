@@ -61,7 +61,7 @@
 	"aggregations": [
             {
                 "pattern": "*.r1",
-                "wcs": true
+                "wms": true
             }
 	    ]
 	}
