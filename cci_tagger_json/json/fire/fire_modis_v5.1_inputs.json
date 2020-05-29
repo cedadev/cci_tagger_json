@@ -23,5 +23,11 @@
     "sensor": "modis",
     "platform": "Terra",
     "institution": "University of Alcala"
-  }
+  },
+  "aggregations": [
+    {
+      "pattern": ".*",
+      "wms": true
+    }
+  ]
 }

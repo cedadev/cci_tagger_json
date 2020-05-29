@@ -1,10 +1,16 @@
 {
-	"datasets": [
-		"/neodc/esacci/biomass/data/agb/maps/2017/v1.0/"
-	],
-	"mappings": {
-	},
-	"defaults": {
-	        "ecv":"above-ground biomass" 
-	}
+  "datasets": [
+    "/neodc/esacci/biomass/data/agb/maps/2017/v1.0/"
+  ],
+  "mappings": {
+  },
+  "defaults": {
+    "ecv": "above-ground biomass"
+  },
+  "aggregations": [
+    {
+      "pattern": ".*",
+      "wms": true
+    }
+  ]
 }

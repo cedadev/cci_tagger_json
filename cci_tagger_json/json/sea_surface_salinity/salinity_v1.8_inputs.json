@@ -10,5 +10,11 @@
     "sensor": "MIRAS, Aquarius,SMAP",
     "platform": "SMOS, SAC-D, SMAP",
     "institution": "ACRI-ST,LOCEAN"
-  }
+  },
+  "aggregations": [
+    {
+      "pattern": ".*",
+      "wms": true
+    }
+  ]
 }
