@@ -1,6 +1,7 @@
 stages:
   - test
   - deploy
+  - update_tags
 
 test:
   stage: test
@@ -20,3 +21,13 @@ deploy:
   trigger: rsmith013/rabbit_indexer_docker
   only:
     - master
+
+update_tags:
+  stage: update_tags
+  image: python:3.7
+  before_script:
+    - pip install -r $CI_PROJECT_DIR/retag_requirements.txt
+  script:
+    - python $CI_PROJECT_DIR/cci_tagger_json/scripts/retag_dataset.py --user a --password b --host c --vhost d --exchange e
+  only:
+    - trigger
