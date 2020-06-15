@@ -18,7 +18,9 @@ deploy:
   stage: deploy
   variables:
     BUILD_ARG_JSON_GIT_VERSION: $CI_COMMIT_SHA
-  trigger: rsmith013/rabbit_indexer_docker
+  trigger:
+    project: rsmith013/rabbit_indexer_docker
+    strategy: depend
   only:
     - master
 
@@ -30,4 +32,4 @@ update_tags:
   script:
     - python $CI_PROJECT_DIR/cci_tagger_json/scripts/retag_dataset.py --user a --password b --host c --vhost d --exchange e
   only:
-    - trigger
+    - master
