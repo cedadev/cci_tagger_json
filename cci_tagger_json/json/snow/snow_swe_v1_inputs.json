@@ -3,8 +3,22 @@
 		"/neodc/esacci/snow/data/swe/MERGED/v1.0/"
 	],
 	"mappings": {
+   "merged":{
+   "NIMBUS7":"Nimbus-7,DMSP-F08,DMSP-F11,DMSP-F13,DMSP-F17",
+   "DMSP F8":"Nimbus-7,DMSP-F08,DMSP-F11,DMSP-F13,DMSP-F17",
+   "DMSP F11":"Nimbus-7,DMSP-F08,DMSP-F11,DMSP-F13,DMSP-F17",
+   "DMSP F13":"Nimbus-7,DMSP-F08,DMSP-F11,DMSP-F13,DMSP-F17",
+   "DMSP F17":"Nimbus-7,DMSP-F08,DMSP-F11,DMSP-F13,DMSP-F17",
+   "SMMR":"SMMR,SSM/I,SSMI/S",
+   "SSM/I":"SMMR,SSM/I,SSMI/S",
+   "SSMIS":"SMMR,SSM/I,SSMI/S"
+   }
 	},
 	"defaults": {
 		"ecv": "snow"
-	}
+	},
+   "overrides":{
+     "product_string":"MERGED",
+     "product_version":"1.0"
+     }
 }

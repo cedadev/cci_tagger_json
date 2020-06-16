@@ -1,0 +1,17 @@
+{
+  "datasets": [
+    "/neodc/esacci/lakes/data/lake_products/L3S/v1.0/"
+  ],
+  "mappings": {
+    "institution":{
+      "lic: h2o geomatics":"h2o geomatics",
+      "lswt: university of reading":"university of reading",
+      "lwe: laboratoire d'etudes en geodesie et oceanongraphie spatiales":"laboratoire d'etudes en geodesie et oceanongraphie spatiales",
+      "lwl: laboratoire d'etudes en geodesie et oceanongraphie spatiales":"laboratoire d'etudes en geodesie et oceanongraphie spatiales",
+      "lwlr: plymouth marine laboratory":"plymouth marine laboratory"
+    }
+  },
+  "defaults": {
+    "ecv": "lakes"
+  }
+}

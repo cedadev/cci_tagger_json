@@ -11,6 +11,9 @@
     },
     "merged": {
       "ATSR, AATSR, AVHRR_GAC": "ATSR,ATSR-2, AATSR, AVHRR-2,AVHRR-3"
+    },
+    "institution":{
+      "ESACCI":"ESACCI_SST"
     }
   },
   "defaults": {

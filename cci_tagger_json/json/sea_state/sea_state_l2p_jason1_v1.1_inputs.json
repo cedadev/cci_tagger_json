@@ -3,9 +3,13 @@
     "/neodc/esacci/sea_state/data/v1.1_release/l2p/jason-1/"
   ],
   "mappings": {
+    "product_string":{
+      "Jason":"Jason-1"
+      }
   },
   "defaults": {
     "ecv": "sea state",
-    "time_coverage_resolution": "satellite orbit frequency"
+    "time_coverage_resolution": "satellite orbit frequency",
+    "sensor":"Poseidon-2"
   }
 }

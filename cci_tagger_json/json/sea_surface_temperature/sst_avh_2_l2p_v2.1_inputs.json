@@ -19,7 +19,10 @@
         "NOAA-11":"NOAA-11",
         "NOAA-12":"NOAA-12",
         "NOAA-14":"NOAA-14"
-      }
+      },
+    "institution":{
+      "ESACCI":"ESACCI_SST"
+    }
     },
     "defaults": {
         "ecv":"sea surface temperature"

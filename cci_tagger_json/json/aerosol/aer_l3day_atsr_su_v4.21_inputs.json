@@ -17,7 +17,8 @@
     },
     "defaults":{
       "ecv":"aerosol",
-      "time_coverage_resolution":"day"
+      "time_coverage_resolution":"day",
+      "institution":"Swansea University"
     },
     "realisations":{
      "/neodc/esacci/aerosol/data/AATSR_SU/L3/v4.21/DAILY/":"r1",

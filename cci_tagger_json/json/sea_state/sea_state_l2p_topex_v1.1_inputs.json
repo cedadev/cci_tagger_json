@@ -3,9 +3,16 @@
     "/neodc/esacci/sea_state/data/v1.1_release/l2p/topex/"
   ],
   "mappings": {
+    "product_string":{
+      "Topex":"Topex-Poseidon"
+      },
+    "platform":{
+      "Topex-Poseidon":"Topex/Poseidon"
+    }
   },
   "defaults": {
     "ecv": "sea state",
-    "time_coverage_resolution": "satellite orbit frequency"
+    "time_coverage_resolution": "satellite orbit frequency",
+    "sensor":"TOPEX"
   }
 }
