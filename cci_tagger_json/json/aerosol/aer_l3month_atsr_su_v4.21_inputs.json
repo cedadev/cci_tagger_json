@@ -17,6 +17,7 @@
     },
     "defaults":{
       "ecv":"aerosol",
-      "time_coverage_resolution":"month"
+      "time_coverage_resolution":"month",
+      "institution":"Swansea University"
     }
 }

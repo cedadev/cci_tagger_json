@@ -20,6 +20,9 @@
     },
     "time_coverage_resolution": {
       "P1DT0H00M00S": "day"
+    },
+    "institution":{
+      "ESACCI":"ESACCI_SST"
     }
   },
   "defaults": {

@@ -6,6 +6,7 @@
   },
   "defaults": {
     "ecv": "sea state",
-    "time_coverage_resolution": "satellite orbit frequency"
+    "time_coverage_resolution": "satellite orbit frequency",
+    "sensor":"GFO-RA"
   }
 }

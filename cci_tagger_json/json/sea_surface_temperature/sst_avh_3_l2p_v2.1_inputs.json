@@ -16,7 +16,10 @@
       },
       "platform":{
         "MetOPA":"Metop-A"
-      }
+      },
+      "institution":{
+        "ESACCI":"ESACCI_SST"
+        }
     },
     "defaults": {
         "ecv":"sea surface temperature"

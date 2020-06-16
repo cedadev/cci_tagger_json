@@ -5,6 +5,9 @@
   "mappings": {
     "ecv": {
       "GHRSST": "SST"
+    },
+    "institution":{
+      "ESACCI":"ESACCI_SST"
     }
   },
   "defaults": {

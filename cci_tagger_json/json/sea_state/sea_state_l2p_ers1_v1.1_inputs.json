@@ -3,10 +3,14 @@
     "/neodc/esacci/sea_state/data/v1.1_release/l2p/ers-1/"
   ],
   "mappings": {
+    "product_string":{
+      "ERS":"ERS-1"
+    }
   },
   "defaults": {
     "ecv": "sea state",
     "time_coverage_resolution": "satellite orbit frequency",
-    "sensor": "RA"
+    "sensor": "RA",
+    "product_string":"ERS-1"
   }
 }

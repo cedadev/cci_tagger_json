@@ -19,7 +19,8 @@
     "defaults":{
       "ecv":"aerosol",
       "product_version":"2.30",
-      "time_coverage_resolution":"day"
+      "time_coverage_resolution":"day",
+      "institution":"Finnish Meteorological Institute"
     },
     "realisations":{
      "/neodc/esacci/aerosol/data/AATSR_ADV/L3/v2.30/DAILY/":"r1",
