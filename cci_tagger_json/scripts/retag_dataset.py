@@ -133,6 +133,7 @@ def get_commandline_args():
     parser.add_argument('--host', help='rabbitMQ server', required=True)
     parser.add_argument('--vhost', help='rabbitMQ vhost', required=True)
     parser.add_argument('--exchange', help='rabbitMQ exchange name', required=True)
+    parser.add_argument('--dry-run', action='store_true')
 
     return parser.parse_args()
 
@@ -140,14 +141,17 @@ def get_commandline_args():
 def main():
     base = os.path.dirname(os.path.abspath(__file__))
     repo_path = os.path.join(base, '../../')
-    args = get_commandline_args()
+    args = vars(get_commandline_args())
+    dry_run = args.pop('dry_run', False)
 
     # Connect to rabbitMQ
-    rabbit_connection = RabbitMQConnection(**args.__dict__)
+    rabbit_connection = RabbitMQConnection(**args)
 
     changed_files = get_changed_files(repo_path)
 
     for file in changed_files:
+        if dry_run:
+            print(file)
 
         # Only want to track the changes in the JSON directory
         if file.startswith('cci_tagger_json/json'):
@@ -158,6 +162,9 @@ def main():
                 # Loop the datasets in the changed files
                 for dataset in datasets:
 
+                    if dry_run:
+                        print(dataset)
+                        continue
                     # Push message to trigger rescan of files in dataset
                     for item in get_dataset_filelist(dataset):
                         msg = rabbit_connection.create_message(item, 'DEPOSIT')
