@@ -14,5 +14,10 @@
     },
     "defaults": {
         "ecv":"sea ice"
+    },
+    "aggregations": [
+    {
+      "pattern": ".*"
     }
+  ]
 }

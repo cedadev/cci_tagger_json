@@ -34,6 +34,7 @@ class DatasetJSONMappings:
         # Init tree
         if json_files is None:
             json_files = list()
+
         self._dataset_tree = DatasetNode()
 
         # Load local JSON files
@@ -216,6 +217,16 @@ class DatasetJSONMappings:
                     break
 
         return realisation
+
+    def get_aggregations(self, filepath):
+
+        # Get dataset
+        dataset = self.get_dataset(filepath)
+
+        # Load the relevant json file
+        data = self.load_mapping(dataset)
+
+        return data.get('aggregations')
 
 
 if __name__ == '__main__':
