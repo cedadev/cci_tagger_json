@@ -1,6 +1,6 @@
 {
   "datasets": [
-    "/neodc/esacci/sea_state/data/v1.1_release/l2p/cryosat-2/"
+    "/neodc/esacci/sea_state/data/v1.1_release/l2p/cryosat-2/v1.1/2018/12/25/"
   ],
   "mappings": {
     "product_string":{

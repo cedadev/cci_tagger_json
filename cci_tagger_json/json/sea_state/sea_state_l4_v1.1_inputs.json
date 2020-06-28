@@ -1,10 +1,9 @@
 {
   "datasets": [
-    "/neodc/esacci/sea_state/data/v1.1_release/l3"
+    "/neodc/esacci/sea_state/data/v1.1_release/l4"
   ],
   "mappings": {
     "time_coverage_resolution": {
-      "": "satellite orbit frequency",
       "1M": "month"
     },
     "platform": {
@@ -12,8 +11,7 @@
     }
   },
   "defaults": {
-    "ecv": "sea state",
-    "time_coverage_resolution": "satellite orbit frequency"
+    "ecv": "sea state"
   },
   "overrides": {
     "sensor": [

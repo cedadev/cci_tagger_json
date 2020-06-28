@@ -11,7 +11,8 @@
    "DMSP F17":"Nimbus-7,DMSP-F08,DMSP-F11,DMSP-F13,DMSP-F17",
    "SMMR":"SMMR,SSM/I,SSMI/S",
    "SSM/I":"SMMR,SSM/I,SSMI/S",
-   "SSMIS":"SMMR,SSM/I,SSMI/S"
+   "SSMIS":"SMMR,SSM/I,SSMI/S",
+   "SSMI/S":"SMMR,SSM/I,SSMI/S"
    }
 	},
 	"defaults": {
