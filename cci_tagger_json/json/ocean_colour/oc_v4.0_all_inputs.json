@@ -14,5 +14,11 @@
   "realisations": {
     "/neodc/esacci/ocean_colour/data/v4.0-release/geographic/netcdf/all_products/": "geographic",
     "/neodc/esacci/ocean_colour/data/v4.0-release/sinusoidal/netcdf/all_products/": "sinusoidal"
-  }
+  },
+  "aggregations": [
+    {
+      "pattern": ".*.geographic",
+      "wms": true
+    }
+  ]
 }

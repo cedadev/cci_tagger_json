@@ -57,5 +57,12 @@
 		"institution": [],
 		"platform": [],
 		"sensor": []
+	},
+	"aggregations": [
+            {
+                "pattern": "*.r1",
+                "wms": true
+            }
+	    ]
 	}
-}
+

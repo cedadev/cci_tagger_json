@@ -1,23 +1,29 @@
 {
-    "datasets": [
-        "/neodc/esacci/sea_ice/data/sea_ice_concentration/L4/amsr/25km/v2.1/NH/",
-        "/neodc/esacci/sea_ice/data/sea_ice_concentration/L4/amsr/50km/v2.1/NH/",
-        "/neodc/esacci/sea_ice/data/sea_ice_concentration/L4/amsr/25km/v2.1/SH/",
-        "/neodc/esacci/sea_ice/data/sea_ice_concentration/L4/amsr/50km/v2.1/SH/"
-    ],
-    "mappings": {
-    	"product_string":{
-		"AMSR_25.0kmEASE2":"AMSR_25kmEASE2",
-		"AMSR_50.0kmEASE2":"AMSR_50kmEASE2"
-	}
-    },
-    "defaults": {
-        "ecv":"sea ice"
-    },
-    "realisations":{
-	"/neodc/esacci/sea_ice/data/sea_ice_concentration/L4/amsr/25km/v2.1/NH/":"NH",
-        "/neodc/esacci/sea_ice/data/sea_ice_concentration/L4/amsr/50km/v2.1/NH/":"NH",
-        "/neodc/esacci/sea_ice/data/sea_ice_concentration/L4/amsr/25km/v2.1/SH/":"SH",
-        "/neodc/esacci/sea_ice/data/sea_ice_concentration/L4/amsr/50km/v2.1/SH/":"SH"
+  "datasets": [
+    "/neodc/esacci/sea_ice/data/sea_ice_concentration/L4/amsr/25km/v2.1/NH/",
+    "/neodc/esacci/sea_ice/data/sea_ice_concentration/L4/amsr/50km/v2.1/NH/",
+    "/neodc/esacci/sea_ice/data/sea_ice_concentration/L4/amsr/25km/v2.1/SH/",
+    "/neodc/esacci/sea_ice/data/sea_ice_concentration/L4/amsr/50km/v2.1/SH/"
+  ],
+  "mappings": {
+    "product_string": {
+      "AMSR_25.0kmEASE2": "AMSR_25kmEASE2",
+      "AMSR_50.0kmEASE2": "AMSR_50kmEASE2"
     }
+  },
+  "defaults": {
+    "ecv": "sea ice"
+  },
+  "realisations": {
+    "/neodc/esacci/sea_ice/data/sea_ice_concentration/L4/amsr/25km/v2.1/NH/": "NH",
+    "/neodc/esacci/sea_ice/data/sea_ice_concentration/L4/amsr/50km/v2.1/NH/": "NH",
+    "/neodc/esacci/sea_ice/data/sea_ice_concentration/L4/amsr/25km/v2.1/SH/": "SH",
+    "/neodc/esacci/sea_ice/data/sea_ice_concentration/L4/amsr/50km/v2.1/SH/": "SH"
+  },
+  "aggregations": [
+    {
+      "pattern": ".*",
+      "wms": true
+    }
+  ]
 }
