@@ -8,6 +8,10 @@
     "product_version": {
     },
     "product_string": {
+      "CO":"WFMD"
+    },
+    "platform":{
+      "sentinel-5 precursor":"sentinel-5p"
     }
   },
   "defaults": {

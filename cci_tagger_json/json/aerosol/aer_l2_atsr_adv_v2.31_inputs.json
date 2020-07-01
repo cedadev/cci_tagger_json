@@ -1,0 +1,16 @@
+{
+   "datasets": [
+      "/neodc/esacci/aerosol/data/AATSR_ADV/L2/v2.31/",
+      "/neodc/esacci/aerosol/data/ATSR2_ADV/L2/v2.31/"
+    ],
+    "mappings":{
+      "product_string":{
+	       "ATSR2":"ADV",
+         "AATSR":"ADV"
+      }
+    },
+    "defaults":{
+      "ecv":"aerosol",
+      "product_version":"2.31"
+    }
+}
