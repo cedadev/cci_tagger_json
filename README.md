@@ -72,7 +72,7 @@ Keys to use as facets
 <tr>
     <th>Description</th>
     <td>Allows you to match different files in the same dataset to different realisations.
-    The patterns should be a regular expression to match agains the filename
+    The patterns should be a regular expression to match against the filename
     </td>
 </tr>
 <tr>
@@ -80,6 +80,7 @@ Keys to use as facets
     <td>The filters element is a JSON object where the keys are dataset paths.
     The dataset path should then have an array of JSON objects.
     Each object should then have the pattern to match and the realisation to apply.
+    <strong>Note: You can map to an <code>EXCLUDE</code> realisation to exclude files from getting a DRS</strong>
     </td>
 </tr>
 <tr>
@@ -95,6 +96,10 @@ Keys to use as facets
 			{
 				"pattern": ".*.txt",
 				"realisation": "text"
+			},			
+			{
+				"pattern": ".*.error",
+				"realisation": "EXCLUDE"
 			}
 		]
 	}

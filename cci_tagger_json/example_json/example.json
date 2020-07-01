@@ -12,6 +12,10 @@
 			{
 				"pattern": ".*.txt",
 				"realisation": "text"
+			},
+			{
+				"pattern": ".*.error",
+				"realisation": "EXCLUDE"
 			}
 		]
 	},
