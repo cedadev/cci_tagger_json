@@ -1,6 +1,6 @@
 stages:
   - test
-  - deploy
+#  - deploy
 
 test:
   stage: test
@@ -13,10 +13,10 @@ test:
   script:
     - cci_json_check cci_tagger_json/json/*/*.json
 
-deploy:
-  stage: deploy
-  variables:
-    BUILD_ARG_JSON_GIT_VERSION: $CI_COMMIT_SHA
-  trigger: rsmith013/rabbit_indexer_docker
-  only:
-    - master
+#deploy:
+#  stage: deploy
+#  variables:
+#    BUILD_ARG_JSON_GIT_VERSION: $CI_COMMIT_SHA
+#  trigger: rsmith013/rabbit_indexer_docker
+#  only:
+#    - master
