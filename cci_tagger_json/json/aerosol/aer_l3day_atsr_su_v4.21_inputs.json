@@ -2,7 +2,7 @@
    "datasets": [
       "/neodc/esacci/aerosol/data/AATSR_SU/L3/v4.21/DAILY/",
       "/neodc/esacci/aerosol/data/ATSR2_SU/L3/v4.21/DAILY_unc/",
-      "/neodc/esacci/aerosol/data/ATSR2_SU/L3/v4.21/DAILY 
+      "/neodc/esacci/aerosol/data/ATSR2_SU/L3/v4.21/DAILY"
     ],
     "mappings":{
       "product_string":{
