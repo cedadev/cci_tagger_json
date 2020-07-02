@@ -204,11 +204,9 @@ class DatasetJSONMappings:
         # If there are filters, these override dataset level realisations
         if filters:
 
-            filename = os.path.basename(filepath)
-
             # Check file against all filters
             for filter in filters:
-                m = re.match(filter['pattern'],filename)
+                m = re.match(filter['pattern'],str(filepath))
 
                 if m:
                     ds_real = filter.get('realisation')
