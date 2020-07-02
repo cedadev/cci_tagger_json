@@ -1,0 +1,13 @@
+{
+   "datasets": [
+      "/neodc/esacci/aerosol/data/MS_UVAI/L3/v1.7/MONTHLY/"
+    ],
+    "mappings":{
+    },
+    "defaults":{
+      "ecv":"aerosol",
+      "data_type":"AAI",
+      "time_coverage_resolution":"MONTH",
+      "processing_level":"L3"
+    }
+}

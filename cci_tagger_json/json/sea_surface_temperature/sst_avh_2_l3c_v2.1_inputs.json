@@ -6,6 +6,58 @@
         "/neodc/esacci/sst/data/CDR_v2/AVHRR/L3C/v2.1/AVHRR12_G/",
         "/neodc/esacci/sst/data/CDR_v2/AVHRR/L3C/v2.1/AVHRR14_G/"
     ],
+    "filters":{
+      "/neodc/esacci/sst/data/CDR_v2/AVHRR/L3C/v2.1/AVHRR07_G/":[
+        {
+          "pattern": ".*day.*",
+          "realisation": "day"
+        },
+        {
+          "pattern": ".*night.*",
+          "realisation": "night"
+        }
+      ],
+      "/neodc/esacci/sst/data/CDR_v2/AVHRR/L3C/v2.1/AVHRR09_G/":[
+        {
+          "pattern": ".*day.*",
+          "realisation": "day"
+        },
+        {
+          "pattern": ".*night.*",
+          "realisation": "night"
+        }
+      ],
+      "/neodc/esacci/sst/data/CDR_v2/AVHRR/L3C/v2.1/AVHRR11_G/":[
+        {
+          "pattern": ".*day.*",
+          "realisation": "day"
+        },
+        {
+          "pattern": ".*night.*",
+          "realisation": "night"
+        }
+      ],
+      "/neodc/esacci/sst/data/CDR_v2/AVHRR/L3C/v2.1/AVHRR12_G/":[
+        {
+          "pattern": ".*day.*",
+          "realisation": "day"
+        },
+        {
+          "pattern": ".*night.*",
+          "realisation": "night"
+        }
+      ],
+      "/neodc/esacci/sst/data/CDR_v2/AVHRR/L3C/v2.1/AVHRR14_G/":[
+        {
+          "pattern": ".*day.*",
+          "realisation": "day"
+        },
+        {
+          "pattern": ".*night.*",
+          "realisation": "night"
+        }
+      ]
+    }, 
     "mappings": {
       "ecv":{
         "GHRSST":"SST"

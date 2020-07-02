@@ -1,0 +1,17 @@
+{
+   "datasets": [
+      "/neodc/esacci/aerosol/data/AATSR_ORAC/L2/v4.01/",
+      "/neodc/esacci/aerosol/data/ATSR2_ORAC/L2/v4.01/"
+    ],
+    "mappings":{
+      "product_string":{
+	       "ATSR2":"ORAC",
+         "AATSR":"ORAC"
+      }
+    },
+    "defaults":{
+      "ecv":"aerosol",
+      "institution":"Rutherford Appleton Laboratory",
+      "sensor":"AATSR"
+    }
+}

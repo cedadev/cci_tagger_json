@@ -6,9 +6,23 @@
     "institution":{
       "lic: h2o geomatics":"h2o geomatics",
       "lswt: university of reading":"university of reading",
-      "lwe: laboratoire d'etudes en geodesie et oceanongraphie spatiales":"laboratoire d'etudes en geodesie et oceanongraphie spatiales",
-      "lwl: laboratoire d'etudes en geodesie et oceanongraphie spatiales":"laboratoire d'etudes en geodesie et oceanongraphie spatiales",
+      "lwe: laboratoire d'etudes en geodesie et oceanongraphie spatiales":"Laboratoire d'Etudes en Geodesie et Oceanographie Spatiales",
+      "lwl: laboratoire d'etudes en geodesie et oceanongraphie spatiales":"Laboratoire d'Etudes en Geodesie et Oceanographie Spatiales",
       "lwlr: plymouth marine laboratory":"plymouth marine laboratory"
+    },
+    "sensor":{
+      "LWL: Poseidon-1":"Poseidon-1",
+      "LWE: MSS":"MSS",
+      "LSWT: ATSR-2":"ATSR-2",
+      "LIC: MODIS":"MODIS",
+      "LWLR":"SeaWifs"
+    },
+    "platform":{
+      "LWL: TOPEX/Poseidon":"TOPEX/Poseidon",
+      "LWE: Landsat<4,5,7,8>":"Landsat<4,5,7,8>",
+      "LSWT: ERS-2":"ERS-2",
+      "LIC: Aqua":"Aqua",
+      "LWLR: Aqua":"Aqua"
     }
   },
   "defaults": {

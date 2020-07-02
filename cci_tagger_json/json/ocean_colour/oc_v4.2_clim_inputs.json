@@ -1,0 +1,25 @@
+{
+  "datasets": [
+    "/neodc/esacci/ocean_colour/data/v4.2-release/climatology/netcdf/monthly/v4.2/"
+  ],
+  "mappings": {
+    "platform": {
+      "Suomi-NPP": "SNPP"
+    }
+  },
+  "defaults": {
+    "ecv": "ocean colour"
+  },
+  "overrides":{
+    "data_type":"OC_PRODUCTS",
+    "processing_level":"L4",
+    "time_coverage_resolution":"climatology",
+    "product_string":"UNSPECIFIED"
+  },
+  "aggregations": [
+    {
+      "pattern": ".*",
+      "wms": true
+    }
+  ]
+}

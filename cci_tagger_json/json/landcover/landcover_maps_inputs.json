@@ -6,8 +6,8 @@
   },
   "defaults": {
     "ecv": "land cover",
-    "sensor": "MERIS, AVHRR, Vegetation",
-    "platform": "ENVISAT, SPOT-4, SPOT-5",
+    "sensor": "MERIS, AVHRR/2, Vegetation, Végétation-P",
+    "platform": "ENVISAT, SPOT-4, SPOT-5, PROBA-V",
     "time_coverage_resolution": "year",
     "processing_level": "L4",
     "product_string": "map",

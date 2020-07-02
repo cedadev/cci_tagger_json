@@ -30,6 +30,14 @@
     "/neodc/esacci/fire/data/burned_area/MODIS/grid/v5.1/":"grid",
     "/neodc/esacci/fire/data/burned_area/MODIS/pixel/v5.1/":"pixel"
   },
+  "filters":{
+   "/neodc/esacci/fire/data/burned_area/MODIS/grid/v5.1/":[
+     { 
+       "pattern":".*old-redacted/.*",
+       "realisation":"EXCLUDE"
+     }
+     ]
+   },
   "aggregations": [
     {
       "pattern": ".*grid$",

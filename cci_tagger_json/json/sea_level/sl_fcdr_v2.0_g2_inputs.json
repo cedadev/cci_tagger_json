@@ -7,6 +7,11 @@
     "defaults": {
         "ecv":"sea level",
 	"sensor":"GFO-RA",
-	"platform":"GFO"
+	"platform":"GFO",
+    "time_coverage_resolution":"satellite orbit frequency",
+    "product_version":"v2.0",
+    "product_string":"unspecified",
+    "processing_level":"L1",
+    "data_type":"unspecified"
     }
 }

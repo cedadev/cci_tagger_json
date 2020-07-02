@@ -1,8 +1,7 @@
 {
    "datasets": [
-      "/neodc/esacci/aerosol/data/AATSR_SU/L3/v4.21/DAILY/",
-      "/neodc/esacci/aerosol/data/ATSR2_SU/L3/v4.21/DAILY_unc/",
-      "/neodc/esacci/aerosol/data/ATSR2_SU/L3/v4.21/DAILY"
+      "/neodc/esacci/aerosol/data/AATSR_SU/L3/v4.3/DAILY/",
+      "/neodc/esacci/aerosol/data/ATSR2_SU/L3/v4.3/DAILY/"
     ],
     "mappings":{
       "product_string":{
@@ -20,9 +19,5 @@
       "ecv":"aerosol",
       "time_coverage_resolution":"day",
       "institution":"Swansea University"
-    },
-    "realisations":{
-     "/neodc/esacci/aerosol/data/AATSR_SU/L3/v4.21/DAILY/":"r1",
-     "/neodc/esacci/aerosol/data/ATSR2_SU/L3/v4.21/DAILY_unc/":"unc"
     }
 }

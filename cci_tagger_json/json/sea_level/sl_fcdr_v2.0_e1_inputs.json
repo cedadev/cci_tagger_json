@@ -7,6 +7,11 @@
     "defaults": {
         "ecv":"sea level",
 	"sensor":"RA",
-	"platform":"ERS-1"
+	"platform":"ERS-1",
+    "time_coverage_resolution":"satellite orbit frequency",
+    "product_version":"v2.0",
+    "product_string":"unspecified",
+    "processing_level":"L1",
+    "data_type":"unspecified"
     }
 }

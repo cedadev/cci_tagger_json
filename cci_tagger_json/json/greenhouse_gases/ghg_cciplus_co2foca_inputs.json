@@ -14,6 +14,7 @@
   "defaults": {
     "ecv": "greenhouse gases",
     "processing_level":"L2",
-    "data_type":"CO2"
+    "data_type":"CO2",
+    "product_string":"UNSPECIFIED"
   }
 }

@@ -6,7 +6,12 @@
     },
     "defaults": {
         "ecv":"sea level",
-	"sensor":"Altika",
-	"platform":"SARAL"
+	    "sensor":"Altika",
+        "platform":"SARAL",
+        "time_coverage_resolution":"satellite orbit frequency",
+        "product_version":"v2.0",
+        "product_string":"unspecified",
+        "processing_level":"L1",
+        "data_type":"unspecified"
     }
 }
