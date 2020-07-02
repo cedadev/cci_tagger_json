@@ -15,8 +15,13 @@
     },
     "defaults": {
         "ecv":"sea surface temperature",
-        "product_string":"GMPEREAN",
+        "product_string":"GMPE",
         "processing_level":"L4",
-        "time_coverage_resolution":"P1D"
+        "time_coverage_resolution":"P1D",
+        "platform":"unspecified",
+        "sensor":"unspecified"
+    },
+    "overrides":{
+      "product_version":"2.0"
     }
 }

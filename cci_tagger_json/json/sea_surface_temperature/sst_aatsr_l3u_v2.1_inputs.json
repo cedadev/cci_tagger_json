@@ -12,6 +12,9 @@
     "sensor": {
     },
     "platform": {
+    },
+    "institution":{
+      "ESACCI":"ESACCI_SST"
     }
   },
   "defaults": {

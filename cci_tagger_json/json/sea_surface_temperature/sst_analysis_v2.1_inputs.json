@@ -19,10 +19,15 @@
       "GHRSST": "SST"
     },
     "platform": {
-      "MetOpA": "Metop-A"
+      "MetOpA": "Metop-A",
+      "NOAA-07":"NOAA-7",
+      "NOAA-09":"NOAA-9"
     },
     "merged": {
       "ATSR, AATSR, AVHRR_GAC": "ATSR,ATSR-2, AATSR,AVHRR-2,AVHRR-3"
+    },
+    "institution":{
+      "ESACCI":"ESACCI_SST"
     }
   },
   "defaults": {

@@ -11,6 +11,9 @@
     },
     "sensor": {
       "ATSR": "ATSR-2"
+    },
+    "institution":{
+      "ESACCI":"ESACCI_SST"
     }
   },
   "defaults": {

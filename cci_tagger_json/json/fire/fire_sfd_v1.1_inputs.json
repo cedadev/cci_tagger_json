@@ -4,9 +4,24 @@
     "/neodc/esacci/fire/data/burned_area/SFD/Africa/Sentinel2/pixel/v1.1/"
   ],
   "mappings": {
+    "platform":{
+      "Sentinel-2":"Sentinel-2A"
+      },
+    "sensor":{
+      "MSI":"MSI (Sentinel-2)"
+    }
   },
   "defaults": {
     "ecv": "fire",
-    "data_type": "condition fire (burned area)"
+    "data_type": "condition fire (burned area)",
+    "platform":"Sentinel-2A",
+    "sensor":"MSI (Sentinel-2)",
+    "time_coverage_resolution":"month",
+    "institution":"University of Alcala",
+    "product_version":"v1.1"
+  },
+  "realisations":{
+   "/neodc/esacci/fire/data/burned_area/SFD/Africa/Sentinel2/grid/v1.1/":"grid",
+    "/neodc/esacci/fire/data/burned_area/SFD/Africa/Sentinel2/pixel/v1.1/":"pixel"
   }
 }

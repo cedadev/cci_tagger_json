@@ -10,11 +10,16 @@
       "P0DT1H40M00S": "satellite orbit frequency"
     },
     "platform": {
-      "MetOPA": "Metop-A"
+      "MetOPA": "Metop-A",
+      "NOAA-07":"NOAA-7",
+      "NOAA-09":"NOAA-9"
     },
     "merged": {
       "ATSR, AATSR, AVHRR_GAC": "ATSR,ATSR-2,AATSR,AVHRR-2,AVHRR-3"
-    }
+    },
+    "institution":{
+      "ESACCI":"ESACCI_SST"
+      }
   },
   "defaults": {
     "ecv": "sea surface temperature"

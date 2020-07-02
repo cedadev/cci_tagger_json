@@ -1,13 +1,26 @@
 {
     "datasets": [
-        "/neodc/esacci/sst/data/gmpe/lt/"
+        "/neodc/esacci/sst/data/gmpe/CDR_V1/lt/",
+        "/neodc/esacci/sst/data/gmpe/CDR_V1/dm/"
     ],
     "mappings": {
       "ecv":{
         "GHRSST":"SST"
+      },
+      "institution":{
+        "UKMO":"Met Office Hadley Centre"
       }
     },
     "defaults": {
-        "ecv":"sea surface temperature"
+        "ecv":"sea surface temperature",
+        "product_string":"GMPEREAN",
+        "processing_level":"L4",
+        "time_coverage_resolution":"P1D",
+        "data_type":"sea surface temperature",
+        "platform":"unspecified",
+        "sensor":"unspecified"
+    },
+    "overrides":{
+      "product_version":"1.0"
     }
 }

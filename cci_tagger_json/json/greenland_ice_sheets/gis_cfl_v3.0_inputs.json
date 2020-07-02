@@ -6,9 +6,13 @@
 		},
      "defaults": {
        "ecv":"ice sheets",
-       "data_type":"glacier calving_front_location",
+       "data_type":"glacier calving front location",
        "product_version":"v3.0",
 	  "institution":"ENVEO",
-	  "platform":"GRACE"
+	  "platform":"ERS-1,ERS-2,Sentinel-1A,Sentinel-1B,LANDSAT-5,LANDSAT-7,LANDSAT-8",
+     "sensor":"SAR-C (Sentinel-1),AMI-SAR,TM,ETM+,TIRS",
+     "time_coverage_resolution":"year",
+     "processing_level":"L4",
+     "product_string":"VARIOUS"
 	}
 }
