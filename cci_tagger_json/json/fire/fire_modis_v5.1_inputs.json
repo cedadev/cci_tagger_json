@@ -33,15 +33,7 @@
   "filters":{
    "/neodc/esacci/fire/data/burned_area/MODIS/grid/v5.1/":[
      { 
-       "pattern":"201910.*.nc",
-       "realisation":"EXCLUDE"
-     },
-     { 
-       "pattern":"201911.*.nc",
-       "realisation":"EXCLUDE"
-     },
-     { 
-       "pattern":"201912.*.nc",
+       "pattern":".*old-redacted/.*",
        "realisation":"EXCLUDE"
      }
      ]
