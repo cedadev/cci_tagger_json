@@ -1,0 +1,20 @@
+{
+    "datasets": [
+       "/neodc/esacci/aerosol/data/PARASOL-GRASP/v0.08/L3_MONTHLY/"
+     ],
+     "mappings":{
+       "product_string":{
+         "PARASOL":"PARASOL-GRASP"
+       },
+       "merged":{
+         "Laboratoire d'Optique Atmospherique; ICARE Data and Services Centre":"Laboratoire d'Optique Atmosphérique, ICARE"
+       },
+       "sensor":{
+         "POLDER3":"POLDER"
+       }
+     },
+     "defaults":{
+       "ecv":"aerosol",
+       "time_coverage_resolution":"monthly"
+    }
+}
