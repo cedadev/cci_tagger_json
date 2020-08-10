@@ -9,9 +9,12 @@
     "sensor":"PALSAR",
     "platform":"ALOS",
     "product_version":"1.1",
-    "time_coverage_resolution":"year",
+    "time_coverage_frequency":"year",
     "institution":"GEUS",
-    "product_string":"Map",
-    "processing_level":"L3"
-  }
+    "product_string":"Unspecified",
+    "processing_level":"Unspecified"
+  },
+  "realisations":{
+    "/neodc/esacci/ice_sheets_greenland/data/greenland_ice_velocity/greenland_margin_PALSAR_timeseries_2006_2011/v1.1/":"greenland_margin_2006_2011"
+    }
 }

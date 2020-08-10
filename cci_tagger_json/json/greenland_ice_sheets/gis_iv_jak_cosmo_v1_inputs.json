@@ -1,10 +1,23 @@
 {
   "datasets": [
-    "/neodc/esacci/ice_sheets_greenland/data/greenland_ice_velocity/greenland_iv_250m_csk_jakobshavn/v1.0"
+    "/neodc/esacci/ice_sheets_greenland/data/greenland_ice_velocity/greenland_iv_250m_csk_jakobshavn/v1.0/"
   ],
-  "mappings": {},
+  "mappings": {
+    "institution":{
+      "DTU Space - Microwaves and Remote Sensing":"DTU-MRS"
+    }
+  },
   "defaults": {
     "ecv": "ice sheets",
-    "data_type": "ice sheet velocity"
+    "data_type": "ice sheet velocity",
+    "platform":"CSK-1,CSK-2,CSK-4",
+    "sensor":"SAR-2000",
+    "institution":"DTU-MRS",
+    "processing_level":"Unspecified",
+    "product_string":"UNSPECIFIED",
+    "time_coverage_resolution":"Unspecified"
+  },
+  "realisations":{
+    "/neodc/esacci/ice_sheets_greenland/data/greenland_ice_velocity/greenland_iv_250m_csk_jakobshavn/v1.0/":"greenland_csk_250m_timeseries_20120604_20141223_Jakobshavn"
   }
 }

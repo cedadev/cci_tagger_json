@@ -1,0 +1,12 @@
+{
+   "datasets": [
+      "/neodc/esacci/aerosol/data/PARASOL-GRASP/v0.08/L2/",
+      "/neodc/esacci/aerosol/data/PARASOL-GRASP/v0.08/L3_DAILY/",
+      "/neodc/esacci/aerosol/data/PARASOL-GRASP/v0.08/L3_MONTHLY/"
+    ],
+    "mappings":{
+    },
+    "defaults":{
+      "ecv":"aerosol"
+    }
+}

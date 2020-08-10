@@ -1,9 +1,9 @@
 {
   "datasets": [
-    "/neodc/esacci/ice_sheets_greenland/data/greenland_gravimetric_mass_balance/TU_Dresden/v1.2/mass_trends/"
+    "/neodc/esacci/ice_sheets_greenland/data/greenland_gravimetric_mass_balance/TU_Dresden/v1.2/time_series/"
   ],
   "mappings": {
-    "institution": {
+    "merged": {
       "TU Dresden, Chair of Geodetic Earth System Research": "TUDr"
     }
   },
@@ -12,11 +12,11 @@
     "data_type": "gravimetric mass balance",
     "institution": "TUDr",
     "platform": "GRACE",
-    "sensor":"GRACE",
     "product_version": "1.2",
     "time_coverage_resolution":"year",
-    "processing_level":"Unspecified",
-    "product_string":"UNSPECIFIED"
+    "sensor":"GRACE",
+    "product_string":"UNSPECIFIED",
+    "processing_level":"Unspecified"
   },
   "overrides": {
     "institution": [
@@ -24,6 +24,6 @@
     ]
   },
   "realisations":{
-      "/neodc/esacci/ice_sheets_greenland/data/greenland_gravimetric_mass_balance/TU_Dresden/v1.2/mass_trends/":"greenland_gmb_mass_trends"
+    "/neodc/esacci/ice_sheets_greenland/data/greenland_gravimetric_mass_balance/TU_Dresden/v1.2/time_series/":"greenland_gmb_timeseries"
   }
 }

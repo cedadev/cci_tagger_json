@@ -24,6 +24,6 @@
     ]
   },
   "realisations":{
-    "/neodc/esacci/ice_sheets_greenland/data/greenland_gravimetric_mass_balance/TU_Dresden/v1.3/time_series/":"time_series"
+    "/neodc/esacci/ice_sheets_greenland/data/greenland_gravimetric_mass_balance/TU_Dresden/v1.3/time_series/":"greenland_gmb_time_series"
   }
 }

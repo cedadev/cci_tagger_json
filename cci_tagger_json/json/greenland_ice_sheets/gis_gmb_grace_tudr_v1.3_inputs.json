@@ -15,8 +15,8 @@
     "product_version": "1.3",
     "sensor":"GRACE",
     "time_coverage_resolution":"year",
-    "product_string":"various",
-    "processing_level":"IND"
+    "product_string":"Unspecified",
+    "processing_level":"Unspecified"
   },
   "overrides": {
     "institution": [
@@ -24,6 +24,6 @@
     ]
   },
   "realisations":{
-    "/neodc/esacci/ice_sheets_greenland/data/greenland_gravimetric_mass_balance/TU_Dresden/v1.3/mass_trends/":"mass_trends"
+    "/neodc/esacci/ice_sheets_greenland/data/greenland_gravimetric_mass_balance/TU_Dresden/v1.3/mass_trends/":"greenland_gmb_mass_trends"
     }
 }

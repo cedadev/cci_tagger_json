@@ -3,6 +3,12 @@
       "/neodc/esacci/aerosol/data/MS_UVAI/L3/v1.7/MONTHLY/"
     ],
     "mappings":{
+      "sensor":{
+        "gome-1":"gome"
+      },
+      "institution":{
+        "royal netherlands meteorological institute (knmi)":"KNMI"
+      }
     },
     "defaults":{
       "ecv":"aerosol",

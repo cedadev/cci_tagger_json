@@ -5,6 +5,20 @@
   "mappings": {},
   "defaults": {
     "ecv": "ice sheets",
-    "data_type": "ice sheet velocity"
+    "data_type": "ice sheet velocity",
+    "platform":"ENVISAT, ERS-1, ERS-2,ALOS",
+    "sensor": "ASAR, AMI-SAR, PALSAR",
+    "institution":"GEUS",
+    "time_coverage_resolution":"Unspecified",
+    "processing_level":"Unspecified",
+    "product_string":"UNSPECIFIED"
+  },
+  "filters":{
+    "/neodc/esacci/ice_sheets_greenland/data/greenland_ice_velocity/greenland_iv_upernavik_timeseries/v1.2/": [
+      {
+        "pattern": ".*nc",
+        "realisation": "greenland_timeseries_Upernarvik"
+      }
+    ]
   }
 }

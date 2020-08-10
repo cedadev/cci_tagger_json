@@ -5,6 +5,24 @@
   "mappings": {},
   "defaults": {
     "ecv": "ice sheets",
-    "data_type": "ice sheet velocity"
+    "data_type": "ice sheet velocity",
+    "platform":"Sentinel-2A, Sentinel-2B",
+    "sensor": "MSI (Sentinel-2)",
+    "institution":"S[&]T",
+    "time_coverage_resolution":"Unspecified",
+    "processing_level":"Unspecified",
+    "product_string":"UNSPECIFIED"
+  },
+  "filters":{
+    "/neodc/esacci/ice_sheets_greenland/data/greenland_ice_velocity/greenland_iv_50m_s2_zachariae/v1.1/": [
+      {
+        "pattern": ".*seasonal.*",
+        "realisation": "greenland_s2_50m_seasonal_20170625_20170810_Zachariae"
+      },
+      {
+        "pattern": ".*timeseries.*",
+        "realisation": "greenland_s2_50m_timeseries_20170625_20170810_Zachariae"
+      }
+    ]
   }
 }

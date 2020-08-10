@@ -3,11 +3,22 @@
     "/neodc/esacci/ice_sheets_greenland/data/greenland_surface_elevation_change/saral-altika/v0.1/"
   ],
   "mappings": {
+    "institution":{
+      "DTU Space - Div. of Geodynamics":"DTU-GDK"
+    }
   },
   "defaults": {
     "ecv": "ice sheets",
     "data_type": "ice sheet surface elevation change",
-    "institution": "DTU Space",
-    "product_version": "v0.1"
+    "institution": "DTU-GDK",
+    "platform":"SARAL, CRYOSAT-2",
+    "sensor":"ALTIKA, SIRAL",
+    "product_version": "0.1",
+    "time_coverage_resolution":"Unspecified",
+    "processing_level":"L4",
+    "product_string":"UNSPECIFIED"
+  },
+  "realisations":{
+    "/neodc/esacci/ice_sheets_greenland/data/greenland_surface_elevation_change/saral-altika/v0.1/":"greenland_sec_saral_altika"
   }
 }
