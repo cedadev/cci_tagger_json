@@ -12,7 +12,8 @@
     },
     "defaults":{
       "ecv":"aerosol",
-      "time_coverage_resolution":"Unspecified"
+      "time_coverage_resolution":"Unspecified",
+      "product_version":"v0.08"
     },
     "filters":{
       "/neodc/esacci/aerosol/data/PARASOL-GRASP/v0.08/L2/":[

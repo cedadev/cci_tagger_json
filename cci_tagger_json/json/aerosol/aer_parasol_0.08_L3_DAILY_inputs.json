@@ -15,7 +15,8 @@
     },
     "defaults":{
         "ecv":"aerosol",
-        "time_coverage_resolution":"day"
+        "time_coverage_resolution":"day",
+        "product_version":"v0.08"
     }
  
 }
