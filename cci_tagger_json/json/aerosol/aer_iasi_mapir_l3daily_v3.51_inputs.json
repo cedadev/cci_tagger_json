@@ -12,13 +12,15 @@
     },
     "defaults":{
         "ecv":"aerosol",
-        "time_coverage_resolution":"day",
         "product_version":"v3.51",
         "processing_level":"L3",
         "institution":"BIRA",
         "data_type":"AER_PRODUCTS",
         "product_string":"UNSPECIFIED"
     },
+    overrides:{
+        "time_coverage_resolution":"day"
+    }
     "filters":{
         "/neodc/esacci/aerosol/data/IASI_MAPIR/v3.51/L3_DAILY/":[
             {
@@ -30,8 +32,8 @@
                 "realisation":"DN"
             },
             {
-                "pattern":".*All.*",
-                "realisation":"All"
+                "pattern":".*ALL.*",
+                "realisation":"ALL"
             }
         ]
     }

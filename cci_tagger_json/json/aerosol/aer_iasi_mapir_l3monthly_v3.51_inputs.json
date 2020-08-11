@@ -30,8 +30,8 @@
                 "realisation":"DN"
             },
             {
-                "pattern":".*All.*",
-                "realisation":"All"
+                "pattern":".*ALL.*",
+                "realisation":"ALL"
             }
         ]
     }
