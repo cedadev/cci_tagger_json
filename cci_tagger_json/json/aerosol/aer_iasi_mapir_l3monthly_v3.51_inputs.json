@@ -1,6 +1,6 @@
 {
     "datasets":[
-        "/neodc/esacci/aerosol/data/IASI_MAPIR/v3.51/L3/MONTHLY/"
+        "/neodc/esacci/aerosol/data/IASI_MAPIR/v3.51/L3_MONTHLY/"
     ],
     "mappings":{
         "product_string":{
@@ -20,7 +20,7 @@
         "product_string":"UNSPECIFIED"
     },
     "filters":{
-        "/neodc/esacci/aerosol/data/IASI_MAPIR/v3.51/L3/MONTHLY/":[
+        "/neodc/esacci/aerosol/data/IASI_MAPIR/v3.51/L3_MONTHLY/":[
             {
                 "pattern":".*AN.*",
                 "realisation":"AN"

@@ -20,7 +20,7 @@
         "product_string":"UNSPECIFIED"
     },
     "filters":{
-        "/neodc/esacci/aerosol/data/IASI_MAPIR/v3.51/L3/DAILY/":[
+        "/neodc/esacci/aerosol/data/IASI_MAPIR/v3.51/L3_DAILY/":[
             {
                 "pattern":".*AN.*",
                 "realisation":"AN"
