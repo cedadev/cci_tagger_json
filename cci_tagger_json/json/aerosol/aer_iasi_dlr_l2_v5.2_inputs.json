@@ -1,0 +1,25 @@
+{
+    "datasets":[
+        "/neodc/esacci/aerosol/data/IASI_DLR/v5.2/L2/"
+    ],
+    "mappings":{
+        "product_string":{
+            "IASI_METOPA":"UNSPECIFIED"
+        }
+    },
+    "defaults":{
+        "ecv":"aerosol"
+    },
+    "filters":{
+        "/neodc/esacci/aerosol/data/IASI_DLR/v5.2/L2/":[
+            {
+                "pattern":".*AN.*",
+                "realisation":"AN"
+            },
+            {
+                "pattern":".*DN.*",
+                "realisation":"DN"
+            }
+        ]
+    }
+}
