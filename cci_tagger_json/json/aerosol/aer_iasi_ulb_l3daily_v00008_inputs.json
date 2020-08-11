@@ -4,7 +4,7 @@
     ],
     "mappings":{
         "product_string":{
-            "IASI":"UNSPECIFIED"
+            "IASI":"IASI-METOPA-ULB"
         },
         "data_type":{
             "D_AOD":"AER_PRODUCTS"
@@ -16,10 +16,11 @@
     "defaults":{
         "ecv":"aerosol",
         "time_coverage_resolution":"day",
-        "product_version":"v8"
+        "product_version":"v8",
+        "institution":"ULB"
     },
     "filters":{
-        "/neodc/esacci/aerosol/data/IASI_ULB/v8/L3_daily":[
+        "/neodc/esacci/aerosol/data/IASI_ULB/v8/L3_daily/":[
             {
                 "pattern":".*AN.*",
                 "realisation":"AN"
