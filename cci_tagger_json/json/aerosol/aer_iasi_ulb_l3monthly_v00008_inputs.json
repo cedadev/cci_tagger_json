@@ -4,10 +4,13 @@
     ],
     "mappings":{
         "product_string":{
-            "IASI_METOPA":"UNSPECIFIED"
+            "IASI":"UNSPECIFIED"
         },
         "data_type":{
             "D_AOD":"AER_PRODUCTS"
+        },
+        "platform":{
+            "MetOpA":"METOP-A"
         }
     },
     "defaults":{
