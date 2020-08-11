@@ -1,16 +1,21 @@
 {
     "datasets":[
-        "/neodc/esacci/aerosol/data/IASI_MAPIR/v3.51/L3/DAILY/"
+        "/neodc/esacci/aerosol/data/IASI_MAPIR/v3.51/L3_DAILY/"
     ],
     "mappings":{
         "product_string":{
             "IASI_METOPA":"UNSPECIFIED"
+        },
+        "platform":{
+            "MetOpA":"METOP-A"
         }
     },
     "defaults":{
         "ecv":"aerosol",
         "time_coverage_resolution":"day",
-        "product_version":"v3.51"
+        "product_version":"v3.51",
+        "processing_level":"L3",
+        "institution":"BIRA"
     },
     "filters":{
         "/neodc/esacci/aerosol/data/IASI_MAPIR/v3.51/L3/DAILY/":[

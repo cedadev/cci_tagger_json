@@ -15,7 +15,7 @@
     },
     "defaults":{
         "ecv":"aerosol",
-        "time_coverage_resolution":"month",
+        "time_coverage_resolution":"day",
         "product_version":"v2.1",
         "institution":"LMD"
     },
