@@ -9,7 +9,8 @@
     },
     "defaults":{
         "ecv":"aerosol",
-        "time_coverage_resolution":"month"
+        "time_coverage_resolution":"month",
+        "product_version":"v5.2"
     },
     "filters":{
         "/neodc/esacci/aerosol/data/IASI_DLR/v5.2/L3/MONTHLY/":[

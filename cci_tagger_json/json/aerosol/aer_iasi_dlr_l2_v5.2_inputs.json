@@ -8,7 +8,8 @@
         }
     },
     "defaults":{
-        "ecv":"aerosol"
+        "ecv":"aerosol",
+        "product_version":"v5.2"
     },
     "filters":{
         "/neodc/esacci/aerosol/data/IASI_DLR/v5.2/L2/":[
