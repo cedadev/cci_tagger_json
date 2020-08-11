@@ -15,7 +15,8 @@
     },
     "defaults":{
         "ecv":"aerosol",
-        "product_version":"v2.1"
+        "product_version":"v2.1",
+        "institution":"LMD"
     },
     "filters":{
         "/neodc/esacci/aerosol/data/IASI_LMD/v2.1/L2/":[
