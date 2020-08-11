@@ -20,7 +20,7 @@
     },
     "overrides":{
         "time_coverage_resolution":"day"
-    }
+    },
     "filters":{
         "/neodc/esacci/aerosol/data/IASI_MAPIR/v3.51/L3_DAILY/":[
             {
