@@ -1,6 +1,6 @@
 {
     "datasets":[
-        "/neodc/esacci/aerosol/data/IASI_DLR/v5.2/L2/"
+        "/neodc/esacci/aerosol/data/IASI_ULB/v8/L3/DAILY/"
     ],
     "mappings":{
         "product_string":{
@@ -9,11 +9,12 @@
     },
     "defaults":{
         "ecv":"aerosol",
-        "product_version":"v5.2",
+        "time_coverage_resolution":"day",
+        "product_version":"v8",
         "institution":"DLR,DFD"
     },
     "filters":{
-        "/neodc/esacci/aerosol/data/IASI_DLR/v5.2/L2/":[
+        "/neodc/esacci/aerosol/data/IASI_ULB/v8/L3/DAILY/":[
             {
                 "pattern":".*AN.*",
                 "realisation":"AN"
@@ -21,6 +22,10 @@
             {
                 "pattern":".*DN.*",
                 "realisation":"DN"
+            },
+            {
+                "pattern":".*All.*",
+                "realisation":"All"
             }
         ]
     }

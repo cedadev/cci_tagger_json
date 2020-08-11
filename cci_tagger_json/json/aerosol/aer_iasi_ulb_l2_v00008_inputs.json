@@ -1,6 +1,6 @@
 {
     "datasets":[
-        "/neodc/esacci/aerosol/data/IASI_DLR/v5.2/L2/"
+        "/neodc/esacci/aerosol/data/IASI_ULB/v8/L2/"
     ],
     "mappings":{
         "product_string":{
@@ -9,11 +9,10 @@
     },
     "defaults":{
         "ecv":"aerosol",
-        "product_version":"v5.2",
-        "institution":"DLR,DFD"
+        "product_version":"v8"
     },
     "filters":{
-        "/neodc/esacci/aerosol/data/IASI_DLR/v5.2/L2/":[
+        "/neodc/esacci/aerosol/data/IASI_MAPIR/v8/L2/":[
             {
                 "pattern":".*AN.*",
                 "realisation":"AN"

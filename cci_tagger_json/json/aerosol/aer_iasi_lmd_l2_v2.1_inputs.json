@@ -1,19 +1,21 @@
 {
     "datasets":[
-        "/neodc/esacci/aerosol/data/IASI_DLR/v5.2/L2/"
+        "/neodc/esacci/aerosol/data/IASI_LMD/v2.1/L2/"
     ],
     "mappings":{
         "product_string":{
-            "IASI_METOPA":"UNSPECIFIED"
+            "IASI":"UNSPECIFIED"
+        },
+        "datatype":{
+            "D_AOD":"AER_PRODUCTS"
         }
     },
     "defaults":{
         "ecv":"aerosol",
-        "product_version":"v5.2",
-        "institution":"DLR,DFD"
+        "product_version":"v2.1"
     },
     "filters":{
-        "/neodc/esacci/aerosol/data/IASI_DLR/v5.2/L2/":[
+        "/neodc/esacci/aerosol/data/IASI_LMD/v2.1/L2/":[
             {
                 "pattern":".*AN.*",
                 "realisation":"AN"
