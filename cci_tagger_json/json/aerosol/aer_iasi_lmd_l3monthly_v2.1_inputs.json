@@ -6,8 +6,11 @@
         "product_string":{
             "IASI":"UNSPECIFIED"
         },
-        "datatype":{
+        "data_type":{
             "D_AOD":"AER_PRODUCTS"
+        },
+        "platform":{
+            "METOPA":"METOP-A"
         }
     },
     "defaults":{
