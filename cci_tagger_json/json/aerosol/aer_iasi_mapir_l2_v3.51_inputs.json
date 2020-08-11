@@ -13,7 +13,9 @@
     "defaults":{
         "ecv":"aerosol",
         "product_version":"v3.51",
-        "processing_level":"L2P"
+        "processing_level":"L2P",
+        "data_type":"AER_PRODUCTS",
+        "product_string":"UNSPECIFIED"
     },
     "filters":{
         "/neodc/esacci/aerosol/data/IASI_MAPIR/v3.51/L2/":[

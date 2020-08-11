@@ -15,7 +15,9 @@
         "time_coverage_resolution":"day",
         "product_version":"v3.51",
         "processing_level":"L3",
-        "institution":"BIRA"
+        "institution":"BIRA",
+        "data_type":"AER_PRODUCTS",
+        "product_string":"UNSPECIFIED"
     },
     "filters":{
         "/neodc/esacci/aerosol/data/IASI_MAPIR/v3.51/L3/DAILY/":[
