@@ -1,10 +1,13 @@
 {
     "datasets":[
-        "/neodc/esacci/aerosol/data/IASI_ULB/v8/L3/MONTHLY/"
+        "/neodc/esacci/aerosol/data/IASI_ULB/v8/L3_monthly"
     ],
     "mappings":{
         "product_string":{
             "IASI_METOPA":"UNSPECIFIED"
+        },
+        "data_type":{
+            "D_AOD":"AER_PRODUCTS"
         }
     },
     "defaults":{
@@ -13,7 +16,7 @@
         "product_version":"v8"
     },
     "filters":{
-        "/neodc/esacci/aerosol/data/IASI_ULB/v8/L3/MONTHLY/":[
+        "/neodc/esacci/aerosol/data/IASI_ULB/v8/L3_monthly":[
             {
                 "pattern":".*AN.*",
                 "realisation":"AN"

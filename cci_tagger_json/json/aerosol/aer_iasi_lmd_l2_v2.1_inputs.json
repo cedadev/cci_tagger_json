@@ -4,7 +4,7 @@
     ],
     "mappings":{
         "product_string":{
-            "IASI":"UNSPECIFIED"
+            "IASI":"IASI-METOPA-LMDAERO"
         },
         "data_type":{
             "D_AOD":"AER_PRODUCTS"
