@@ -4,7 +4,7 @@
      ],
      "mappings":{
        "product_string":{
-         "PARASOL":"UNSPECIFIED"
+         "PARASOL":"PARASOL-GRASP"
        },
        "merged":{
          "Laboratoire d'Optique Atmospherique; ICARE Data and Services Centre":"Laboratoire d'Optique Atmosphérique, ICARE"
@@ -15,7 +15,7 @@
      },
      "defaults":{
        "ecv":"aerosol",
-       "time_coverage_resolution":"monthly",
+       "time_coverage_resolution":"month",
        "product_version":"v0.08"
     }
 }
