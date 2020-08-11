@@ -23,19 +23,19 @@
         },
         {
           "pattern":".*banizoumbou*",
-          "realisation":"global"
+          "realisation":"banizoumbou"
         },   
         {
           "pattern":".*beijing.*",
-          "realisation":"global"
+          "realisation":"beijing"
         },
         {
           "pattern":".*kanpur.*",
-          "realisation":"global"
+          "realisation":"kanpur"
         },
         {
           "pattern":".*mongu.*",
-          "realisation":"global"
+          "realisation":"mongu"
         }
       ]
     }
