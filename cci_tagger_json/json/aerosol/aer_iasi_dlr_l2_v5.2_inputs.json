@@ -1,0 +1,27 @@
+{
+    "datasets":[
+        "/neodc/esacci/aerosol/data/IASI_DLR/v5.2/L2/"
+    ],
+    "mappings":{
+        "product_string":{
+            "IASI_METOPA":"IASI_METOPA-DLR-IMARS"
+        }
+    },
+    "defaults":{
+        "ecv":"aerosol",
+        "product_version":"v5.2",
+        "institution":"DLR,DFD"
+    },
+    "filters":{
+        "/neodc/esacci/aerosol/data/IASI_DLR/v5.2/L2/":[
+            {
+                "pattern":".*AN.*",
+                "realisation":"AN"
+            },
+            {
+                "pattern":".*DN.*",
+                "realisation":"DN"
+            }
+        ]
+    }
+}

@@ -1,0 +1,42 @@
+{
+   "datasets": [
+      "/neodc/esacci/aerosol/data/PARASOL-GRASP/v0.08/L2/"
+    ],
+    "mappings":{
+      "product_string":{
+        "PARASOL":"PARASOL-GRASP"
+      },
+      "merged":{
+        "Laboratoire d'Optique Atmospherique; ICARE Data and Services Centre":"Laboratoire d'Optique Atmosphérique, ICARE"
+      }
+    },
+    "defaults":{
+      "ecv":"aerosol",
+      "time_coverage_resolution":"Unspecified",
+      "product_version":"v0.08"
+    },
+    "filters":{
+      "/neodc/esacci/aerosol/data/PARASOL-GRASP/v0.08/L2/":[
+        {
+          "pattern":".*global.*",
+          "realisation":"global"
+        },
+        {
+          "pattern":".*banizoumbou*",
+          "realisation":"banizoumbou"
+        },   
+        {
+          "pattern":".*beijing.*",
+          "realisation":"beijing"
+        },
+        {
+          "pattern":".*kanpur.*",
+          "realisation":"kanpur"
+        },
+        {
+          "pattern":".*mongu.*",
+          "realisation":"mongu"
+        }
+      ]
+    }
+}

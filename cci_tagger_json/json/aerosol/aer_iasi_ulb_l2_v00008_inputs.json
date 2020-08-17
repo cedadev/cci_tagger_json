@@ -1,0 +1,33 @@
+{
+    "datasets":[
+        "/neodc/esacci/aerosol/data/IASI_ULB/v8/L2/"
+    ],
+    "mappings":{
+        "product_string":{
+            "IASI":"IASI-METOPA-ULB"
+        },
+        "data_type":{
+            "D_AOD":"AER_PRODUCTS"
+        },
+        "platform":{
+            "MetOpA":"METOP-A"
+        }
+    },
+    "defaults":{
+        "ecv":"aerosol",
+        "product_version":"v8",
+        "institution":"ULB"
+    },
+    "filters":{
+        "/neodc/esacci/aerosol/data/IASI_ULB/v8/L2/":[
+            {
+                "pattern":".*AN.*",
+                "realisation":"AN"
+            },
+            {
+                "pattern":".*DN.*",
+                "realisation":"DN"
+            }
+        ]
+    }
+}

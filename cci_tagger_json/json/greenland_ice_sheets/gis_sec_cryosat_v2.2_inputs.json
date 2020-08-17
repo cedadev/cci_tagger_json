@@ -1,26 +1,31 @@
 {
   "datasets": [
-    "/neodc/esacci/ice_sheets_greenland/data/greenland_surface_elevation_change/cryosat2/v2.2"
+    "/neodc/esacci/ice_sheets_greenland/data/greenland_surface_elevation_change/cryosat2/v2.2/"
   ],
   "filters": {
-    "/neodc/esacci/ice_sheets_greenland/data/greenland_surface_elevation_change/cryosat2/v2.2": [
+    "/neodc/esacci/ice_sheets_greenland/data/greenland_surface_elevation_change/cryosat2/v2.2/": [
       {
         "pattern": ".*2yr.*",
-        "realisation": "2yr"
+        "realisation": "greenland_sec_cryosat_2yr"
       },
       {
         "pattern": ".*5yr.*",
-        "realisation": "5yr"
+        "realisation": "greenland_sec_cryosat_5yr"
       }
     ]
   },
   "mappings": {
+    "institution":{
+      "DTU Space - Div. of Geodynamics":"DTU-GDK"
+    }
   },
   "defaults": {
     "ecv": "ice sheets",
     "data_type": "ice sheet surface elevation change",
     "platform": "cryosat-2",
-    "institution": "DTU Space",
-    "product_version": "v2.2"
+    "sensor":"SIRAL",
+    "processing_level":"Unspecified",
+    "product_string":"UNSPECIFIED",
+    "time_coverage_resolution":"year"
   }
 }

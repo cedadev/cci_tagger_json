@@ -7,6 +7,15 @@
 	"defaults": {
     "ecv":"ice sheets",
     "data_type":"glacier grounding line location",
-    "product_version":"v2.0"
+	"product_version":"2.0",
+	"processing_level":"Unspecified",
+	"product_string":"UNSPECIFIED",
+	"time_coverage_resolution":"Unspecified",
+	"institution":"ENVEO",
+	"platform":"ERS-1,ERS-2,Sentinel-1A",
+	"sensor":"AMI-SAR,SAR-C (Sentinel-1)"
+	},
+	"realisations":{
+		"/neodc/esacci/ice_sheets_antarctica/data/grounding_line_locations/Ferrigno_PineIS_Thwaites_Smith_Pope_Kohler/v2.0_cci_subset":"antarctic_gll_Ferrigno_PineIS_Thwaites_Smith_Pope_Kohler"
 	}
 }

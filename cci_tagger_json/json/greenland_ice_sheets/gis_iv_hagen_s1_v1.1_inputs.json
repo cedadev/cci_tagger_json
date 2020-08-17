@@ -1,10 +1,28 @@
 {
   "datasets": [
-    "/neodc/esacci/ice_sheets_greenland/data/greenland_ice_velocity/greenland_iv_250m_s1_hagen/v1.1"
+    "/neodc/esacci/ice_sheets_greenland/data/greenland_ice_velocity/greenland_iv_250m_s1_hagen/v1.1/"
   ],
-  "mappings": {},
+  "mappings": {
+    "product_version":{
+      "ESP 2.1":"1.1"
+    }
+  },
   "defaults": {
     "ecv": "ice sheets",
-    "data_type": "ice sheet velocity"
+    "data_type": "ice sheet velocity",
+    "institution":"ENVEO",
+    "platform":"Sentinel-1A, Sentinel-1B",
+    "sensor":"SAR-C (Sentinel-1)",
+    "processing_level":"Unspecified",
+    "product_string":"UNSPECIFIED",
+    "time_coverage_resolution":"Unspecified"
+  },
+  "filters":{
+    "/neodc/esacci/ice_sheets_greenland/data/greenland_ice_velocity/greenland_iv_250m_s1_hagen/v1.1/":[
+      {
+      "pattern":".*nc",
+      "realisation":"greenland_s1_250m_20141011_20170317_20150122_20170322_Hagen"
+      }
+    ]
   }
 }

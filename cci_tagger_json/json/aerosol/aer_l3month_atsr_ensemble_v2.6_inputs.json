@@ -9,11 +9,16 @@
        },
        "platform":{
          "ERS2":"ERS-2"
+       },
+       "product_string":{
+         "ATSR2":"ATSR2-ENVISAT-ERS_MONTHLY",
+         "AATSR":"AATSR-ENVISAT-ERS_MONTHLY"
        }
     },
     "defaults":{
       "ecv":"aerosol",
       "time_coverage_resolution":"month",
-      "product_version":"v2.6"
+      "product_version":"v2.6",
+      "institution":"DLR,DFD"
     }
 }

@@ -1,0 +1,33 @@
+{
+    "datasets":[
+        "/neodc/esacci/aerosol/data/IASI_LMD/v2.1/L2/"
+    ],
+    "mappings":{
+        "product_string":{
+            "IASI":"IASI-METOPA-LMDAERO"
+        },
+        "data_type":{
+            "D_AOD":"AER_PRODUCTS"
+        },
+        "platform":{
+            "METOPA":"METOP-A"
+        }
+    },
+    "defaults":{
+        "ecv":"aerosol",
+        "product_version":"v2.1",
+        "institution":"LMD"
+    },
+    "filters":{
+        "/neodc/esacci/aerosol/data/IASI_LMD/v2.1/L2/":[
+            {
+                "pattern":".*AN.*",
+                "realisation":"AN"
+            },
+            {
+                "pattern":".*DN.*",
+                "realisation":"DN"
+            }
+        ]
+    }
+}

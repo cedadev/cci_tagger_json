@@ -2,9 +2,26 @@
   "datasets": [
     "/neodc/esacci/ice_sheets_greenland/data/greenland_ice_velocity/greenland_iv_kangerlussuaq_timeseries/v1.0/"
   ],
-  "mappings": {},
+  "mappings": {
+    "product_version":{
+      "undefined":"1.0"
+    }},
   "defaults": {
     "ecv": "ice sheets",
-    "data_type": "ice sheet velocity"
+    "data_type": "ice sheet velocity",
+    "platform":"ENVISAT, ERS-1",
+    "sensor": "ASAR, AMI-SAR",
+    "institution":"GEUS",
+    "time_coverage_resolution":"Unspecified",
+    "processing_level":"Unspecified",
+    "product_string":"UNSPECIFIED"
+  },
+  "filters":{
+    "/neodc/esacci/ice_sheets_greenland/data/greenland_ice_velocity/greenland_iv_kangerlussuaq_timeseries/v1.0/": [
+      {
+        "pattern": ".*nc",
+        "realisation": "greenland_timeseries_Kangerlussuaq"
+      }
+    ]
   }
 }

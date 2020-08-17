@@ -7,8 +7,15 @@
 	"defaults": {
     "ecv":"ice sheets",
     "data_type":"ice sheet velocity",
-    "product_version":"v1.0",
-    "platform":"sentinel-1",
-    "institution":"ENVEO"
-	}
+    "product_version":"1.0",
+    "platform":"sentinel-1A",
+    "sensor":"SAR-C (Sentinel-1)",
+    "institution":"ENVEO",
+    "time_coverage_resolution":"Unspecified",
+    "product_string":"UNSPECIFIED",
+    "processing_level":"Unspecified"
+	},
+  "realisations":{
+    "/neodc/esacci/ice_sheets_antarctica/data/ice_velocity/pine_island_glacier/v1.0/":"antartic_pine_island_glacier"
+  }
 }

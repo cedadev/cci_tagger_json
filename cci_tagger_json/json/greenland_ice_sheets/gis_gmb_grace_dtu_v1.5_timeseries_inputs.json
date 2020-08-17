@@ -1,0 +1,24 @@
+{
+  "datasets": [
+    "/neodc/esacci/ice_sheets_greenland/data/greenland_gravimetric_mass_balance/DTU_Space/v1.5/CCI_GMB_RL06_time_series/"
+  ],
+  "mappings": {
+    "institution": {
+      "DTU Space - Div. of Geodynamics": "DTU-GDK"
+    }
+  },
+  "defaults": {
+    "ecv": "ice sheets",
+    "data_type": "gravimetric mass balance",
+    "institution": "DTU-GDK",
+    "platform": "GRACE",
+    "sensor":"GRACE",
+    "product_version": "1.5",
+    "time_coverage_resolution":"year",
+    "product_string":"UNSPECIFIED",
+    "processing_level":"Unspecified"
+  },
+  "realisations":{
+    "/neodc/esacci/ice_sheets_greenland/data/greenland_gravimetric_mass_balance/DTU_Space/v1.5/CCI_GMB_RL06_time_series/":"greenland_gmb_time_series"
+  }
+}

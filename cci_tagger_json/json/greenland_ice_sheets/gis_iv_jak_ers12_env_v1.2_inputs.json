@@ -2,9 +2,31 @@
   "datasets": [
     "/neodc/esacci/ice_sheets_greenland/data/greenland_ice_velocity/greenland_iv_jakobshavn_timeseries/v1.2/"
   ],
-  "mappings": {},
+  "mappings": {
+    "product_version":{
+      "undefined":"1.2"
+    }
+  },
   "defaults": {
     "ecv": "ice sheets",
-    "data_type": "ice sheet velocity"
+    "data_type": "ice sheet velocity",
+    "institution":"GEUS",
+    "platform":"ENVISAT, ERS-1, ERS-2",
+    "sensor": "ASAR, AMI-SAR",
+    "time_coverage_resolution":"Unspecified",
+    "processing_level":"Unspecified",
+    "product_string":"UNSPECIFIED"
+  },
+  "filters":{
+    "/neodc/esacci/ice_sheets_greenland/data/greenland_ice_velocity/greenland_iv_jakobshavn_timeseries/v1.2/": [
+      {
+        "pattern": ".*2002_2010.nc",
+        "realisation": "greenland_timeseries_2002_2010_Jakobshavn"
+      },
+      {
+        "pattern":".*1992_2010.nc",
+        "realisation":"greenland_timeseries_1992_2010_Jakobshavn"
+      }
+    ]
   }
 }

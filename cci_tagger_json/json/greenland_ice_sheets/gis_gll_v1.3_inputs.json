@@ -9,10 +9,13 @@
        "data_type":"glacier grounding line location",
        "institution":"ENVEO",
        "product_version":"v1.3",
-       "platform":"ENVISAT,ERS-1,ERS-2,Sentinel-1A,Sentinel-1B",
-       "sensor":"SAR-C (Sentinel-1),ASAR,AMI-SAR",
-       "product_string":"VARIOUS",
-       "time_coverage_resolution":"satellite orbit frequency",
-       "processing_level":"L4"
-	}
+       "platform":"ERS-1,ERS-2,Sentinel-1A,Sentinel-1B",
+       "sensor":"SAR-C (Sentinel-1),AMI-SAR",
+       "product_string":"UNSPECIFIED",
+       "time_coverage_resolution":"Unspecified",
+       "processing_level":"Unspecified"
+  },
+  "realisations":{
+    "/neodc/esacci/ice_sheets_greenland/data/greenland_grounding_line_locations/v1.3/":"greenland"
+  }
 }

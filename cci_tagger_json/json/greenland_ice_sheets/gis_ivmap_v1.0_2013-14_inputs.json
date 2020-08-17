@@ -4,16 +4,23 @@
   ],
   "mappings": {
     "institution": {
-      "DTU-Space MRS": "DTU Space"
+      "DTU Space MRS": "DTU-MRS"
     }
   },
   "defaults": {
     "ecv": "ice sheets",
-    "institution": "DTU Space",
+    "institution": "DTU-MRS",
     "data_type": "ice sheet velocity",
-    "product_version": "v1.0",
-    "platform": "RadarSat-2"
+    "product_version": "1.0",
+    "platform": "RadarSat-2",
+    "sensor":"SAR (RadarSat-2)",
+    "time_coverage_resolution":"Unspecified",
+    "processing_level":"Unspecified",
+    "product_string":"UNSPECIFIED"
   },
   "overrides": {
+  },
+  "realisations":{
+	"/neodc/esacci/ice_sheets_greenland/data/greenland_ice_velocity/greenland_ice_velocity_map_winter_2013_2014/v1.0":"greenland_map_winter_2013_2014"
   }
 }

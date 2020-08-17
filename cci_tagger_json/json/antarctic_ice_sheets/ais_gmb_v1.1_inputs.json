@@ -4,12 +4,23 @@
     "/neodc/esacci/ice_sheets_antarctica/data/gravimetric_mass_balance/gridded/v1.1/"
 	],
 	"mappings": {
+		"merged":{
+			"TU Dresden, Chair of Geodetic Earth System Research":"TUDr"
+		}
 	},
 	"defaults": {
     "ecv":"ice sheets",
     "data_type":"gravimetric mass balance",
-    "product_version":"v1.1",
-    "platform":"GRACE",
-    "institution":"TUDr"
+    "product_version":"1.1",
+	"platform":"GRACE",
+	"sensor":"GRACE",
+	"institution":"TUDr",
+	"product_string":"UNSPECIFIED",
+	"processing_level":"Unspecified",
+	"time_coverage_resolution":"Unspecified"
+	},
+	"realisations":{
+		"/neodc/esacci/ice_sheets_antarctica/data/gravimetric_mass_balance/basin/v1.1/":"antarctic_gmb_basin",
+    	"/neodc/esacci/ice_sheets_antarctica/data/gravimetric_mass_balance/gridded/v1.1/":"antarctic_gmb_gridded"
 	}
 }
