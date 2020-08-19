@@ -14,7 +14,7 @@
     "product_string":"UNSPECIFIED"
   },
   "filters":{
-    "/neodc/esacci/ice_sheets_greenland/data/greenland_ice_velocity/greenland_iv_50m_s2_kangerdlussuaq/v1.1/": [
+    "/neodc/esacci/ice_sheets_greenland/data/greenland_ice_velocity/greenland_iv_50m_s2_kangerdlugssuaq/v1.1/": [
       {
         "pattern": ".*seasonal.*",
         "realisation": "greenland_s2_50m_seasonal_20170721_20170820_Kangerdlugssuaq"
