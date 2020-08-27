@@ -22,6 +22,6 @@
     "product_version":"1.5"
   },
   "realisations":{
-    "/neodc/esacci/ice_sheets_greenland/data/greenland_gravimetric_mass_balance/DTU_Space/v1.5/CCI_GMB_RL06_mass_trends":"greenland_gmb_mass_trends"
+    "/neodc/esacci/ice_sheets_greenland/data/greenland_gravimetric_mass_balance/DTU_Space/v1.5/CCI_GMB_RL06_mass_trends/":"greenland_gmb_mass_trends"
   }
 }
