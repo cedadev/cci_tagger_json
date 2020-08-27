@@ -1,6 +1,6 @@
 {
    "datasets": [
-      "/neodc/esacci/aerosol/data/AATSR_ENS/L3/v2.6/DAILY/"
+      "/neodc/esacci/aerosol/data/ATSR2_ENS/L3/v2.6/DAILY/"
     ],
     "mappings":{
       "sensor":{
@@ -10,8 +10,8 @@
          "ERS2":"ERS-2"
       },
       "product_string":{
-        "ATSR2":"AATSR-ENVISAT-ENS_DAILY",
-        "AATSR":"AATSR-ENVISAT-ENS_DAILY"
+        "ATSR2":"ATSR2-ENVISAT-ENS_DAILY",
+        "AATSR":"ATSR2-ENVISAT-ENS_DAILY"
       }
     },
     "defaults":{
