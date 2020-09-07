@@ -1,0 +1,24 @@
+{
+  "datasets": [
+    "/neodc/esacci/sea_surface_salinity/data/v02.31/30days",
+    "/neodc/esacci/sea_surface_salinity/data/v02.31/7days"
+  ],
+  "mappings": {
+    "merged":{
+      "SMOS/MIRAS; Aquarius; SMAP":"MIRAS, Aquarius, SMAP",
+      "PROTEUS; SAC-D; SMAP":"SMOS, SAC-D, SMAP"
+    }
+  },
+  "defaults": {
+    "ecv": "sea surface salinity",
+    "sensor": "MIRAS, Aquarius,SMAP",
+    "platform": "SMOS, SAC-D, SMAP",
+    "institution": "ACRI-ST,LOCEAN"
+  },
+  "aggregations": [
+    {
+      "pattern": ".*",
+      "wms": true
+    }
+  ]
+}
