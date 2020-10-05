@@ -1,0 +1,13 @@
+{
+  "datasets": [
+    "/neodc/esacci/ghg/data/cci_plus/CO2_TAN_OCFP/v1.0/"
+  ],
+  "mappings": {
+  },
+  "defaults": {
+    "ecv": "greenhouse gases",
+    "processing_level":"L2",
+    "data_type":"CO2",
+    "product_string":"OCFP"
+  }
+}
