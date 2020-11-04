@@ -22,6 +22,7 @@ JSON Files have these attributes which you can find more detail about below:
 - [Defaults](#defaults)
 - [Realisations](#realisations)
 - [Overrides](#overrides)
+- [Aggregations](#aggregations)
 
 
 Keys to use as facets
@@ -237,3 +238,28 @@ Keys to use as facets
 </tr>
 </table>
 
+### Aggregations
+
+<table>
+<tr>
+    <th>Description</th>
+    <td>Describes which files should be aggregated by providing a regular expression to match a DRS</td>
+</tr>
+<tr>
+    <th>Structure</th>
+    <td>Array. Each element is a JSON object with keys <code>pattern</code>, <code>wms</code></td>
+</tr>
+<tr>
+    <th>Example</th>
+    <td>
+    <pre>
+    "aggregations": [
+    	{
+        	"pattern": "*.r1",
+                "wms": true
+            }
+    ]
+    </pre>
+    </td>
+</tr>
+</table>
