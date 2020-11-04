@@ -1,0 +1,26 @@
+{
+  "datasets": [
+    "/neodc/esacci/permafrost/data/ground_temperature/L4/area4/pp/v02.0/"
+  ],
+  "mappings": {
+		"institution": {
+			"University of Oslo": "Department of GeoSciences, University of Oslo"
+		},
+	"sensor": {
+		"SPOT": "VEGETATION",
+		"AVHRR/3": "AVHRR-3"
+		}
+	},
+	"defaults": {
+		"ecv": "permafrost"
+	},
+	"overrides":{
+		"product_version":"02.0"
+	},
+ "aggregations": [
+    {
+      "pattern": ".*",
+      "wms":true
+    }
+  ]
+}

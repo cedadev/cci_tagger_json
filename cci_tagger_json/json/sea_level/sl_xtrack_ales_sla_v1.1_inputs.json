@@ -1,0 +1,22 @@
+{
+  "datasets": [
+    "/neodc/esacci/sea_level/data/XTRACK_ALES_SLA/SLA/v1.1_202006/"
+  ],
+  "mappings": {
+    "merged":{
+      "Jason-1, Jason-2 and Jason-3":"Jason-1,Jason-2, Jason-3",
+      "Poseidon-2, Poseidon-3 and Poseidon-3B":"Poseidon-2,Poseidon-3,Poseidon-3B"
+    },
+    "institution":{
+      "CTOH/LEGOS":"LEGOS",
+      "Toulouse Univ.": "Université de Toulouse"
+    },
+    "time_coverage_resolution":{
+      "P9DT21H58M27.84S":"P10D"
+    }
+  },
+  "defaults": {
+    "ecv": "sea level",
+    "time_coverage_resolution":"unspecified"
+  }
+}

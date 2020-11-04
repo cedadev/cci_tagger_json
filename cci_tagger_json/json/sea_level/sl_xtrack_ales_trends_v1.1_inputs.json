@@ -1,0 +1,48 @@
+{
+  "datasets": [
+    "/neodc/esacci/sea_level/data/XTRACK_ALES_SLA/Trends_SelectedSites/v1.1_202006/"
+  ],
+  "mappings": {
+    "merged":{
+      "Jason-1, Jason-2 and Jason-3":"Jason-1,Jason-2, Jason-3",
+      "Poseidon-2, Poseidon-3 and Poseidon-3B":"Poseidon-2,Poseidon-3,Poseidon-3B"
+    },
+    "institution":{
+      "CTOH/LEGOS":"LEGOS"
+    },
+    "time_coverage_resolution":{
+      "P9DT21H58M27.84S":"month"
+    }
+  },
+  "defaults": {
+    "ecv": "sea level"
+  },
+  "filters":{
+    "/neodc/esacci/sea_level/data/XTRACK_ALES_SLA/Trends_SelectedSites/v1.1_202006/":[
+      {
+        "pattern":".*MED_SEA.*",
+        "realisation":"MED_SEA"
+      },
+      {
+        "pattern":".*NE_ATL.*",
+        "realisation":"NE_ATL"
+      },
+      {
+        "pattern":".*N_INDIAN.*",
+        "realisation":"N_INDIAN"
+      },
+      {
+        "pattern":".*S_AUSTRALIA.*",
+        "realisation":"S_AUSTRALIA"
+      },
+      {
+        "pattern":".*SE_ASIA.*",
+        "realisation":"SE_ASIA"
+      },
+      {
+        "pattern":".*WAFRICA.*",
+        "realisation":"WAFRICA"
+      }
+    ]
+  }
+}
