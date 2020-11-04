@@ -19,7 +19,7 @@
 	},
   "aggregations": [
     {
-      "pattern": ".*"
+      "pattern": ".*",
       "wms":true
     }
   ]
