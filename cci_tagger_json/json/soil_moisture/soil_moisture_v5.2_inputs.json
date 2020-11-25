@@ -1,0 +1,26 @@
+{
+  "datasets": [
+    "/neodc/esacci/soil_moisture/data/daily_files/ACTIVE/v05.2/",
+    "/neodc/esacci/soil_moisture/data/daily_files/PASSIVE/v05.2/",
+    "/neodc/esacci/soil_moisture/data/daily_files/COMBINED/v05.2/"
+  ],
+  "mappings": {
+    "merged": {
+      "Technical University of Vienna (AUT); VanderSat B.V. Noordwijk (NL)": "Vienna University of Technology, Transmissivity B.V. / VanderSat B.V.",
+      "Nimbus 7, DMSP, TRMM, AQUA, Coriolis, GCOM-W1, MIRAS, SMAP; ERS-1, ERS-2, METOP-A, METOP-B": "Nimbus-7, DMSP-F08, DMSP-F11, DMSP-F13, TRMM, AQUA, Coriolis, GCOM-W1, SMOS, SMAP, ERS-1, ERS-2, METOP-A,METOP-B",
+      "SMMR, SSM/I, TMI, AMSR-E, WindSat, AMSR2, SMOS, SMAP_radiometer; AMI-WS, ASCAT-A, ASCAT-B": "SMMR, SSM/I, TMI, AMSRE, WindSat, AMSR2, MIRAS, SMAP, AMI-WS, ASCAT",
+      "AMI-WS, ASCAT-A, ASCAT-B": "AMI-WS, ASCAT",
+      "SMMR, SSM/I, TMI, AMSR-E, WindSat, AMSR2, SMOS, SMAP_radiometer": "SMMR, SSM/I, TMI, AMSRE, WindSat, AMSR2, MIRAS, SMAP",
+      "Nimbus 7, DMSP, TRMM, AQUA, Coriolis, GCOM-W1, MIRAS, SMAP": "Nimbus-7, DMSP-F08,DMSP-F11,DMSP-F13, TRMM, AQUA, Coriolis, GCOM-W1, SMOS, SMAP"
+    }
+  },
+  "defaults": {
+    "ecv": "soil moisture"
+  },
+  "aggregations": [
+    {
+      "pattern": ".*",
+      "wms": true
+    }
+  ]
+}
