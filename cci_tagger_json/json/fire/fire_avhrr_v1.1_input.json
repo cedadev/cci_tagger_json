@@ -1,0 +1,38 @@
+{
+  "datasets": [
+    "/neodc/esacci/fire/data/burned_area/AVHRR-LTDR/grid/v1.1/",
+    "/neodc/esacci/fire/data/burned_area/AVHRR-LTDR/pixel/v1.1/"
+  ],
+  "mappings": {
+    "ecv": {
+    },
+    "time_coverage_resolution": {
+    },
+    "product_string":{
+      "AVHRR":"AVHRR-LTDR"
+    },
+    "merged":{
+      "AVHRR":"AVHRR-2,AVHRR-3",
+      "NOAA-7, NOAA-9, NOAA-11, NOAA-14, NOAA-16, NOAA-18 and NOAA-19":"NOAA-7, NOAA-9, NOAA-11, NOAA-14, NOAA-16, NOAA-18,NOAA-19"
+    }
+  },
+  "defaults": {
+    "ecv": "fire",
+    "data_type": "condition fire (burned area)",
+    "institution": "University of Alcala",
+    "product_version":"v1.1",
+    "platform":"NOAA-7, NOAA-9, NOAA-11, NOAA-14, NOAA-16, NOAA-18,NOAA-19",
+    "sensor":"AVHRR-2,AVHRR-3",
+    "time_coverage_resolution":"month"
+  },
+  "realisations":{
+    "/neodc/esacci/fire/data/burned_area/AVHRR-LTDR/grid/v1.1/":"grid",
+    "/neodc/esacci/fire/data/burned_area/AVHRR-LTDR/pixel/v1.1/":"pixel"
+  },
+  "aggregations": [
+    {
+      "pattern": ".*grid$",
+      "wms": true
+    }
+  ]
+}
