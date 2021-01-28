@@ -9,9 +9,15 @@
        "platform":{
          "ERS2":"ERS-2"
        },
+       "merged":{
+         "ATSR2":"ATSR-2,AATSR",
+         "AATSR":"ATSR-2,AATSR",
+         "ERS2":"ERS-2,ENVISAT",
+         "ENVISAT":"ERS-2,ENVISAT"
+       },
        "product_string":{
-         "ATSR2":"AATSR-ENVISAT-ERS_MONTHLY",
-         "AATSR":"AATSR-ENVISAT-ERS_MONTHLY"
+         "ATSR2":"AATSR-ENVISAT-ENS_MONTHLY",
+         "AATSR":"AATSR-ENVISAT-ENS_MONTHLY"
        }
     },
     "defaults":{

@@ -12,6 +12,12 @@
       "product_string":{
         "ATSR2":"AATSR-ENVISAT-ENS_DAILY",
         "AATSR":"AATSR-ENVISAT-ENS_DAILY"
+      },
+      "merged":{
+        "ATSR2":"ATSR-2,AATSR",
+        "AATSR":"ATSR-2,AATSR",
+        "ERS2":"ERS-2,ENVISAT",
+        "ENVISAT":"ERS-2,ENVISAT"
       }
     },
     "defaults":{
