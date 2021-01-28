@@ -9,6 +9,12 @@
       "platform":{
          "ERS2":"ERS-2"
       },
+      "merged":{
+        "ATSR2":"ATSR-2,AATSR",
+        "AATSR":"ATSR-2,AATSR",
+        "ERS2":"ERS-2,ENVISAT",
+        "ENVISAT":"ERS-2,ENVISAT"
+      },
       "product_string":{
         "ATSR2":"ATSR2-ENVISAT-ENS_DAILY",
         "AATSR":"ATSR2-ENVISAT-ENS_DAILY"
