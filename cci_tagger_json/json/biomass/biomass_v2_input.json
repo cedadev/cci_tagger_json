@@ -4,7 +4,9 @@
     ],
     "mappings": {
       "merged": {
-        "PALSAR-2, SAR-C": "PALSAR-2, SAR-C (Sentinel-1)"
+        "PALSAR-2, SAR-C": "PALSAR-2, SAR-C (Sentinel-1)",
+        "PALSAR, SAR-C": "PALSAR, ASAR",
+        "ALOS-1 PALSAR, ENVISAT ASAR":"ALOS, ENVISAT"
       }
     },
     "defaults": {
