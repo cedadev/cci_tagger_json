@@ -18,11 +18,10 @@ test:json_tags:
   image: python:3.7
   before_script:
     - pip install git+https://github.com/cedadev/directory-tree.git
-    - pip install -e $CI_PROJECT_DIR
     - pip install requests
     - pip install git+https://github.com/rsmith013/cci-tagger.git
   script:
-    - cci_json_check cci_tagger_json/json/*/*.json
+    - cci_json_check $CI_PROJECT_DIR/cci_tagger_json/json/*/*.json
 
 build:json_tags:
   extends: .build_common
