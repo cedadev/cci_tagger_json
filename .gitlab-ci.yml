@@ -19,6 +19,7 @@ test:json_tags:
   before_script:
     - pip install git+https://github.com/cedadev/directory-tree.git
     - pip install requests
+    - pip install git+https://github.com/cedadev/json_tagger.git
     - pip install git+https://github.com/rsmith013/cci-tagger.git
   script:
     - cci_json_check $CI_PROJECT_DIR/cci_tagger_json/json/*/*.json
