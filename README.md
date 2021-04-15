@@ -1,6 +1,6 @@
 # CCI Tagger JSON
 
-This is the store and interface for the CCI JSON files which aim to correct mistakes
+This is the store for the CCI JSON files which aim to correct mistakes
 in the metadata and translate values found in the file and filepath to the controlled
 vocab.
 
