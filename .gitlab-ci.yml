@@ -13,6 +13,8 @@ include:
   variables:
     IMAGE_REPO_BASE: registry.ceda.ac.uk/rabbit_indexer_docker
     BUILD_ARG_BASE_IMAGES_VERSION: "89f4e407"
+  except:
+    - triggers
 
 test:json_tags:
   stage: test
@@ -24,6 +26,8 @@ test:json_tags:
     - pip install git+https://github.com/rsmith013/cci-tagger.git@0bfff1976623ca4c901c94c183e51f0319104726
   script:
     - cci_json_check $CI_PROJECT_DIR/cci_tagger_json/json/*/*.json
+  except:
+    - triggers
 
 build:json_tags:
   extends: .build_common
@@ -40,6 +44,8 @@ trigger:deploy:
     - curl -fsSL -X POST -F token=$RABBIT_INDEXER_DEPLOY_TRIGGER_TOKEN -F "ref=master" -F "variables[JSON_TAGS_TAG]=$CI_COMMIT_SHORT_SHA" https://breezy.badc.rl.ac.uk/api/v4/projects/520/trigger/pipeline
   only:
     - master
+  except:
+    - triggers
 
 trigger:runtags:
   stage: runtags
