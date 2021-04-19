@@ -1,22 +1,43 @@
 stages:
   - test
-#  - deploy
+  - build
+  - deploy
 
-test:
+include:
+    - project: cedaci/ci-tools
+      file: /includes/kubernetes.yml
+
+.build_common:
+  extends: .build_docker
+  variables:
+    IMAGE_REPO_BASE: registry.ceda.ac.uk/rabbit_indexer_docker
+    BUILD_ARG_BASE_IMAGES_VERSION: "89f4e407"
+
+test:json_tags:
   stage: test
   image: python:3.7
   before_script:
     - pip install git+https://github.com/cedadev/directory-tree.git
-    - pip install -e $CI_PROJECT_DIR
     - pip install requests
-    - pip install git+https://github.com/rsmith013/cci-tagger.git
+    - pip install git+https://github.com/cedadev/json_tagger.git
+    - pip install git+https://github.com/rsmith013/cci-tagger.git@0bfff1976623ca4c901c94c183e51f0319104726
   script:
-    - cci_json_check cci_tagger_json/json/*/*.json
+    - cci_json_check $CI_PROJECT_DIR/cci_tagger_json/json/*/*.json
 
-#deploy:
-#  stage: deploy
-#  variables:
-#    BUILD_ARG_JSON_GIT_VERSION: $CI_COMMIT_SHA
-#  trigger: rsmith013/rabbit_indexer_docker
-#  only:
-#    - master
+build:json_tags:
+  extends: .build_common
+  stage: build
+  variables:
+    REPOSITORY: registry.ceda.ac.uk/rabbit_indexer_docker/rabbit_json_tags
+  only:
+    - master
+
+trigger:deploy:
+  stage: deploy
+  image: registry.ceda.ac.uk/ci-tools/utils:latest
+  script:
+    - curl -fsSL -X POST -F token=$RABBIT_INDEXER_DEPLOY_TRIGGER_TOKEN -F "ref=master" -F "variables[JSON_TAGS_TAG]=$CI_COMMIT_SHORT_SHA" https://breezy.badc.rl.ac.uk/api/v4/projects/520/trigger/pipeline
+  only:
+    - master
+
+
