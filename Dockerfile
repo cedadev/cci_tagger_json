@@ -26,4 +26,4 @@ RUN groupadd --gid $INDEXER_GID $INDEXER_GROUP && \
 # Make a directory for the json tags and populate it
 COPY ./cci_tagger_json/json/ /json_tags/
 
-USER $CCI_UID
+USER $INDEXER_UID
